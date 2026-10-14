@@ -26,8 +26,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
 
   return (
     <>
-      <header className="sticky top-0 z-40 pt-2.5 sm:pt-4 px-2.5 sm:px-6 lg:px-8 pointer-events-none">
-        <div className="w-full max-w-[1400px] mx-auto bg-white/95 backdrop-blur-xl border border-black/[0.05] rounded-full px-3.5 sm:px-7 h-14 sm:h-16 lg:h-[68px] flex items-center justify-between shadow-[0_8px_30px_rgba(0,0,0,0.04)] pointer-events-auto">
+      <header className="sticky top-0 z-40 pt-3 sm:pt-4 px-3 sm:px-6 lg:px-8 pointer-events-none">
+        <div className="w-full max-w-[1400px] mx-auto bg-white/95 backdrop-blur-xl border border-black/[0.06] rounded-full px-4 sm:px-7 h-16 sm:h-[68px] flex items-center justify-between shadow-[0_8px_30px_rgba(0,0,0,0.06)] pointer-events-auto">
           {/* Left: Distinct Editorial Brand Lockup */}
           <a
             href="#"
