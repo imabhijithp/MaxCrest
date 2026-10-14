@@ -12,7 +12,7 @@ const architecturalHighlights = [
     title: 'Elevated Western Ghats Ridge',
     description:
       'Positioned along a quiet emerald crest in Vagamon, the resort follows the natural contours of the hillside to preserve uninterrupted views of tea valleys and drifting mountain mist.',
-    image: '/images/architecture-landscape.jpg',
+    image: './images/architecture-landscape.jpg',
     alt: 'Max Crest Resort nestled along the green tea slopes of Vagamon',
   },
   {
@@ -21,7 +21,7 @@ const architecturalHighlights = [
     title: 'The Glass & Timber Pavilion',
     description:
       'Floor-to-ceiling glass elevations, vertical timber louvers, and private cantilevered balconies invite shifting highland light and cool pine breezes indoors.',
-    image: '/images/architecture-facade.jpg',
+    image: './images/architecture-facade.jpg',
     alt: 'Modern architectural facade with vertical timber louvers and glass balconies',
   },
   {
@@ -30,7 +30,7 @@ const architecturalHighlights = [
     title: 'Teak Promenade & Water Edge',
     description:
       'Hand-finished timber walkways and natural stone courtyards link the living spaces to our cantilevered plunge pool overlooking the valley horizon.',
-    image: '/images/boardwalk-walkway.jpg',
+    image: './images/boardwalk-walkway.jpg',
     alt: 'Timber boardwalk walkway beside the glass facade and pool edge',
   },
 ];

@@ -12,7 +12,7 @@ const stayHighlights = [
     title: 'Unhurried Highland Evenings',
     description:
       'As dusk settles over the Western Ghats, warm amber light glows from the glass pavilions while cool mountain breezes sweep across the cantilevered verandas.',
-    image: '/images/hero-sunset-panoramic.jpg',
+    image: './images/hero-sunset-panoramic.jpg',
     alt: 'Panoramic sunset horizon at Max Crest Premium Resort Vagamon',
   },
   {
@@ -21,7 +21,7 @@ const stayHighlights = [
     title: 'Where Clouds Drift Across the Deck',
     description:
       'High in the hills of Vagamon, shifting mist rolls directly across the timber pool terrace—creating a serene sanctuary far removed from urban heat and noise.',
-    image: '/images/deck-monsoon-mist.jpg',
+    image: './images/deck-monsoon-mist.jpg',
     alt: 'Teak pool deck shrouded in Vagamon mountain fog',
   },
   {
@@ -30,7 +30,7 @@ const stayHighlights = [
     title: 'Wake Above the Emerald Valley',
     description:
       'Begin your morning with freshly brewed Kerala tea on the private balcony as sunlight filters through pine ridges and undulating tea estates.',
-    image: '/images/hero-estate-overview.jpg',
+    image: './images/hero-estate-overview.jpg',
     alt: 'Morning tea slopes and pine ridges of Vagamon',
   },
 ];

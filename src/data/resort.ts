@@ -70,17 +70,17 @@ export const resort = {
   },
 
   navigation: [
-    { label: "Sanctuary", href: "#sanctuary", number: "01", previewImage: "/images/architecture-landscape.jpg" },
-    { label: "Architecture", href: "#architecture", number: "02", previewImage: "/images/villa-twilight-glow.jpg" },
-    { label: "Suites", href: "#suites", number: "03", previewImage: "/images/suite-master-bedroom.jpg" },
-    { label: "Rituals", href: "#experiences", number: "04", previewImage: "/images/infinity-plunge-pool.jpg" },
-    { label: "Monograph", href: "#gallery", number: "05", previewImage: "/images/hero-sunset-panoramic.jpg" },
-    { label: "Topography", href: "#destination", number: "06", previewImage: "/images/architecture-landscape.jpg" },
+    { label: "Sanctuary", href: "#sanctuary", number: "01", previewImage: "./images/architecture-landscape.jpg" },
+    { label: "Architecture", href: "#architecture", number: "02", previewImage: "./images/villa-twilight-glow.jpg" },
+    { label: "Suites", href: "#suites", number: "03", previewImage: "./images/suite-master-bedroom.jpg" },
+    { label: "Rituals", href: "#experiences", number: "04", previewImage: "./images/infinity-plunge-pool.jpg" },
+    { label: "Monograph", href: "#gallery", number: "05", previewImage: "./images/hero-sunset-panoramic.jpg" },
+    { label: "Topography", href: "#destination", number: "06", previewImage: "./images/architecture-landscape.jpg" },
   ],
 
   hero: {
-    image: "/images/hero-estate-overview.jpg",
-    mobileImage: "/images/hero-sunset-panoramic.jpg",
+    image: "./images/hero-estate-overview.jpg",
+    mobileImage: "./images/hero-sunset-panoramic.jpg",
     eyebrow: "VAGAMON · KERALA",
     title: "A quieter side of the mountains.",
     description: "Perched along the emerald ridges of Vagamon, where modern glass pavilions meet the shifting mist and stillness of the Western Ghats.",
@@ -94,9 +94,9 @@ export const resort = {
     title: "A place shaped by stillness.",
     description: "Far removed from hurried itineraries, Max Crest is conceived as a sanctuary of quiet luxury. Here, architecture does not impose upon the hillside—it opens itself entirely to the undulating tea slopes, morning fog, and ever-changing sky.",
     quote: "“The landscape does not ask for your attention; it quietly restores it.”",
-    featureImage: "/images/hero-sunset-panoramic.jpg",
+    featureImage: "./images/hero-sunset-panoramic.jpg",
     featureImageAlt: "Panoramic sunset horizon over tea slopes and misty mountain ridges in Vagamon",
-    secondaryImage: "/images/boardwalk-walkway.jpg",
+    secondaryImage: "./images/boardwalk-walkway.jpg",
     secondaryImageAlt: "Timber walkway alongside the glass facade and water's edge",
     provenance: [
       { label: "PROVENANCE", value: "Vagamon Highlands, Kerala" },
@@ -123,9 +123,9 @@ export const resort = {
       { label: "STRUCTURE", value: "Cantilevered steel & mountain-anchored masonry" },
       { label: "GLAZING", value: "Full-height continuous glass curtain walls" },
     ],
-    primaryImage: "/images/villa-twilight-glow.jpg",
+    primaryImage: "./images/villa-twilight-glow.jpg",
     primaryImageAlt: "Twilight view of the villa with glowing interior and wooden deck",
-    offsetImage: "/images/architecture-facade.jpg",
+    offsetImage: "./images/architecture-facade.jpg",
     offsetImageAlt: "Modern architectural facade with vertical timber louvers and balconies",
   },
 
@@ -140,7 +140,7 @@ export const resort = {
       orientation: "West-Facing Ridge Horizon",
       description: "Polished stone floors, plush king bedding, and full-height glass doors opening directly onto a private mountain-facing balcony.",
       features: ["Private glass balcony", "Expansive valley horizon", "Polished stone finishes", "Morning mist views"],
-      image: "/images/suite-master-bedroom.jpg",
+      image: "./images/suite-master-bedroom.jpg",
       alt: "Master suite with king bed and private balcony overlooking misty mountains",
     },
     {
@@ -153,7 +153,7 @@ export const resort = {
       orientation: "South-West Ridge Terrace",
       description: "Sliding glass partitions framing panoramic tea slopes, allowing the cool mountain breeze to flow effortlessly through the room.",
       features: ["Framed ridge perspectives", "Private veranda seating", "Minimalist natural palette", "Cool mountain breeze"],
-      image: "/images/suite-balcony-view.jpg",
+      image: "./images/suite-balcony-view.jpg",
       alt: "Suite balcony view overlooking the rolling green slopes of Vagamon",
     },
     {
@@ -166,7 +166,7 @@ export const resort = {
       orientation: "Central Ridge Pavilion",
       description: "Soaring glass elevations dissolving the boundary between interior sanctuary and the expanse of the Western Ghats.",
       features: ["Double-height glass elevation", "Panoramic tea estate view", "Open-plan living architecture", "Bespoke seating"],
-      image: "/images/lounge-double-height.jpg",
+      image: "./images/lounge-double-height.jpg",
       alt: "Double-height glass living lounge overlooking green hills",
     },
   ] as SuiteItem[],
@@ -176,7 +176,7 @@ export const resort = {
     eyebrow: "RITUALS OF THE HIGHLAND",
     title: "Slow down. Look around.",
     lead: "Surrounded by tea-covered crests and drifting mountain fog, days at Max Crest are shaped by the elements rather than schedules.",
-    heroImage: "/images/infinity-plunge-pool.jpg",
+    heroImage: "./images/infinity-plunge-pool.jpg",
     heroImageAlt: "Infinity plunge pool cantilevered above the slopes of Vagamon",
     rituals: [
       {
@@ -186,7 +186,7 @@ export const resort = {
         tag: "DAWN · PLUNGE POOL",
         timeOfDay: "06:00 — 08:30",
         description: "Dawn at 1,100 meters brings cloud inversion that spills across the cantilevered plunge pool. Watch the water mirror changing skies as cool mountain dew carpets the slopes.",
-        image: "/images/infinity-plunge-pool.jpg",
+        image: "./images/infinity-plunge-pool.jpg",
         alt: "Infinity plunge pool cantilevered above the slopes of Vagamon"
       },
       {
@@ -196,7 +196,7 @@ export const resort = {
         tag: "DUSK · STONE HEARTH",
         timeOfDay: "18:00 — 21:00",
         description: "As evening mountain air cools, the outdoor stone hearth gathers warmth. Conversations unfold under starlit skies while woodsmoke drifts into the pine trees.",
-        image: "/images/terrace-firepit.jpg",
+        image: "./images/terrace-firepit.jpg",
         alt: "Stone hearth and outdoor deck terrace at twilight"
       },
       {
@@ -206,7 +206,7 @@ export const resort = {
         tag: "AFTERNOON · SOLITUDE",
         timeOfDay: "15:00 — 17:30",
         description: "Unhurried trails along estate tea paths flanked by solitary highland pines. Walk in quiet contemplation with 360-degree vistas of the Western Ghats.",
-        image: "/images/hero-estate-overview.jpg",
+        image: "./images/hero-estate-overview.jpg",
         alt: "Panoramic tea garden slopes and highland ridges of Vagamon"
       }
     ] as RitualItem[],
@@ -230,7 +230,7 @@ export const resort = {
   },
 
   cinematicBreak: {
-    image: "/images/hero-sunset-panoramic.jpg",
+    image: "./images/hero-sunset-panoramic.jpg",
     quoteLine1: "Come for the view.",
     quoteLine2: "Stay for the stillness.",
     subtext: "A sanctuary where time slows down to the rhythm of mountain clouds.",
@@ -239,7 +239,7 @@ export const resort = {
   gallery: [
     {
       id: "g1",
-      src: "/images/hero-estate-overview.jpg",
+      src: "./images/hero-estate-overview.jpg",
       alt: "Panoramic landscape view of Max Crest Resort perched on the Vagamon hillside",
       title: "The Estate & Hillside",
       category: "landscape",
@@ -248,7 +248,7 @@ export const resort = {
     },
     {
       id: "g2",
-      src: "/images/infinity-plunge-pool.jpg",
+      src: "./images/infinity-plunge-pool.jpg",
       alt: "Infinity plunge pool reflecting clouds and ridges",
       title: "Sky Mirror Plunge Pool",
       category: "experience",
@@ -257,7 +257,7 @@ export const resort = {
     },
     {
       id: "g3",
-      src: "/images/villa-twilight-glow.jpg",
+      src: "./images/villa-twilight-glow.jpg",
       alt: "Twilight illumination of the glass pavilion and teak deck",
       title: "Twilight on the Pavilion",
       category: "architecture",
@@ -266,7 +266,7 @@ export const resort = {
     },
     {
       id: "g4",
-      src: "/images/lounge-mountain-view.jpg",
+      src: "./images/lounge-mountain-view.jpg",
       alt: "Double-height living space framing tea estate views",
       title: "High-Ceiling Living Vista",
       category: "sanctuary",
@@ -275,7 +275,7 @@ export const resort = {
     },
     {
       id: "g5",
-      src: "/images/architecture-landscape.jpg",
+      src: "./images/architecture-landscape.jpg",
       alt: "Paved courtyard and modern cottage architecture overlooking green slopes",
       title: "Courtyard & Cottages",
       category: "architecture",
@@ -284,7 +284,7 @@ export const resort = {
     },
     {
       id: "g6",
-      src: "/images/terrace-firepit.jpg",
+      src: "./images/terrace-firepit.jpg",
       alt: "Stone hearth and outdoor deck terrace",
       title: "Outdoor Hearth Terrace",
       category: "experience",
@@ -293,7 +293,7 @@ export const resort = {
     },
     {
       id: "g7",
-      src: "/images/suite-master-bedroom.jpg",
+      src: "./images/suite-master-bedroom.jpg",
       alt: "Master bedroom suite with balcony view",
       title: "Master Bedroom Suite",
       category: "sanctuary",
@@ -302,7 +302,7 @@ export const resort = {
     },
     {
       id: "g8",
-      src: "/images/deck-monsoon-mist.jpg",
+      src: "./images/deck-monsoon-mist.jpg",
       alt: "Teak pool deck shrouded in mountain fog",
       title: "The Monsoon Veil",
       category: "landscape",
@@ -311,7 +311,7 @@ export const resort = {
     },
     {
       id: "g9",
-      src: "/images/boardwalk-walkway.jpg",
+      src: "./images/boardwalk-walkway.jpg",
       alt: "Boardwalk promenade flanked by glass and pool edge",
       title: "Timber Promenade",
       category: "architecture",
@@ -320,7 +320,7 @@ export const resort = {
     },
     {
       id: "g10",
-      src: "/images/ridge-lone-pine.jpg",
+      src: "./images/ridge-lone-pine.jpg",
       alt: "Architectural facade and highland garden flora",
       title: "Garden Flora & Facade",
       category: "architecture",
@@ -329,7 +329,7 @@ export const resort = {
     },
     {
       id: "g11",
-      src: "/images/pool-mist-horizon.jpg",
+      src: "./images/pool-mist-horizon.jpg",
       alt: "Pool edge vanishing into the morning fog",
       title: "Mist on the Edge",
       category: "experience",
@@ -338,7 +338,7 @@ export const resort = {
     },
     {
       id: "g12",
-      src: "/images/architecture-verandas.jpg",
+      src: "./images/architecture-verandas.jpg",
       alt: "Architectural verandas and stone structure",
       title: "Cantilevered Verandas",
       category: "architecture",
@@ -347,7 +347,7 @@ export const resort = {
     },
     {
       id: "g13",
-      src: "/images/resort-signage.jpg",
+      src: "./images/resort-signage.jpg",
       alt: "Max Crest stone entrance signage",
       title: "The Arrival",
       category: "architecture",
@@ -356,7 +356,7 @@ export const resort = {
     },
     {
       id: "g14",
-      src: "/images/architecture-landscape.jpg",
+      src: "./images/architecture-landscape.jpg",
       alt: "Wide landscape view of resort structure in the tea hills",
       title: "Mountain Contours",
       category: "landscape",

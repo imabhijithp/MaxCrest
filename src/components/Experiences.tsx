@@ -39,7 +39,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
           className="lg:col-span-5 relative rounded-[28px] overflow-hidden h-[380px] sm:h-[420px] lg:h-[480px] bg-white group cursor-pointer shadow-sm flex flex-col justify-end p-4 sm:p-5"
         >
           <img
-            src="/images/infinity-plunge-pool.jpg"
+            src="./images/infinity-plunge-pool.jpg"
             alt="Infinity plunge pool cantilevered above the slopes of Vagamon"
             className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
@@ -78,7 +78,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
           >
             <div className="sm:col-span-5 h-[190px] sm:h-full min-h-[160px] rounded-[20px] overflow-hidden bg-[#EAF1E6]">
               <img
-                src="/images/terrace-firepit.jpg"
+                src="./images/terrace-firepit.jpg"
                 alt="Stone hearth and outdoor deck terrace at twilight"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -139,7 +139,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
 
             <div className="sm:col-span-5 order-1 sm:order-2 h-[190px] sm:h-full min-h-[160px] rounded-[20px] overflow-hidden bg-[#EAF1E6]">
               <img
-                src="/images/hero-estate-overview.jpg"
+                src="./images/hero-estate-overview.jpg"
                 alt="Sweeping tea garden slopes and panoramic pine ridges of Vagamon"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"

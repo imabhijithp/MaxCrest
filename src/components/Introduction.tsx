@@ -42,7 +42,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
           <div className="lg:col-span-5 flex flex-col">
             <div className="relative rounded-[28px] overflow-hidden w-full h-[340px] sm:h-[390px] lg:h-[420px] bg-[#EAF1E6] group shadow-[0_4px_24px_rgba(41,78,53,0.06)]">
               <img
-                src="/images/villa-twilight-glow.jpg"
+                src="./images/villa-twilight-glow.jpg"
                 alt="Twilight view of Max Crest glass pavilion and timber deck"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"

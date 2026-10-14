@@ -66,7 +66,7 @@ export const Destination: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="rounded-[24px] overflow-hidden aspect-[16/10] bg-white shadow-[0_4px_24px_rgba(41,78,53,0.06)]">
               <img
-                src="/images/resort-signage.jpg"
+                src="./images/resort-signage.jpg"
                 alt="Max Crest Premium Resort Vagamon entrance and hillside setting"
                 className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                 loading="lazy"
