@@ -44,15 +44,11 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
       {/* Section Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 sm:mb-12">
         <div>
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3 shadow-2xs">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-            <span>02 — Design &amp; Views</span>
-          </div>
-          <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-            Crafted to Frame{' '}
-            <span className="font-serif italic font-normal text-[#294E35]">
-              the Mountain Horizon
-            </span>
+          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#294E35] block mb-3">
+            Villas &amp; Architecture
+          </span>
+          <h2 className="font-serif text-[30px] sm:text-[38px] lg:text-[44px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+            Modern comfort nestled into the hillside.
           </h2>
         </div>
 
@@ -136,12 +132,10 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
                           onOpenEnquiry(`Enquiring about ${item.title} at Max Crest Vagamon`);
                         }
                       }}
-                      className="group inline-flex items-center gap-2.5 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-4 pr-2 py-2 rounded-full transition-all shadow-xs"
+                      className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-xs active:scale-[0.98]"
                     >
                       <span>Enquire Details</span>
-                      <span className="w-5 h-5 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
-                        <ArrowUpRight className="w-3 h-3" />
-                      </span>
+                      <ArrowUpRight className="w-3.5 h-3.5" />
                     </button>
                   </div>
                 )}

@@ -34,15 +34,11 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
         {/* Header + Segmented Pill Filter */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>05 — Photo Gallery</span>
-            </div>
-            <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-              Moments &amp; Views{' '}
-              <span className="font-serif italic font-normal text-[#294E35]">
-                at Max Crest
-              </span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#BB8C52] font-semibold block mb-3">
+              Photo Gallery
+            </span>
+            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+              Moments &amp; views across the estate
             </h2>
           </div>
 
@@ -97,7 +93,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent opacity-85 group-hover:opacity-100 transition-opacity" />
 
                 <div className="absolute top-3.5 right-3.5">
-                  <span className="w-8 h-8 rounded-full bg-white text-[#294E35] group-hover:bg-[#294E35] group-hover:text-white flex items-center justify-center shadow-sm transition-all duration-300 group-hover:rotate-45">
+                  <span className="w-8 h-8 rounded-full bg-white text-[#294E35] group-hover:bg-[#294E35] group-hover:text-white flex items-center justify-center shadow-sm transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </span>
                 </div>

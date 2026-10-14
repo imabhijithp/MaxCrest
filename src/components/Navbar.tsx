@@ -109,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               className="group inline-flex items-center gap-1.5 sm:gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-[11px] sm:text-xs font-medium px-3 sm:pl-4 sm:pr-2.5 py-1.5 sm:py-2 rounded-full transition-all shadow-xs active:scale-[0.98] whitespace-nowrap shrink-0"
             >
               <span className="whitespace-nowrap">Book Now</span>
-              <span className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-white/20 text-white flex items-center justify-center transition-transform group-hover:rotate-45 shrink-0">
+              <span className="w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-white/20 text-white flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 shrink-0">
                 <ArrowUpRight className="w-2.5 h-2.5 sm:w-3 sm:h-3" />
               </span>
             </button>

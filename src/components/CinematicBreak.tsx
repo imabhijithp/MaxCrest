@@ -70,11 +70,20 @@ export const CinematicBreak: React.FC<CinematicBreakProps> = ({ onOpenEnquiry })
         <div className="lg:col-span-5 flex flex-col justify-between p-2 sm:p-4 lg:pr-6 space-y-6">
           <div>
             <div className="flex items-center justify-between text-xs font-medium tracking-widest uppercase mb-4">
-              <span className="text-[#B8C9B2]">Mountain Rhythm</span>
-              <span className="text-[#BB8C52] font-semibold">{current.step}</span>
+              <span className="text-[#B8C9B2]">Mountain Living</span>
+              <div className="flex items-center gap-1.5">
+                {stayHighlights.map((_, idx) => (
+                  <span
+                    key={idx}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${
+                      idx === currentIndex ? 'w-6 bg-[#BB8C52]' : 'w-1.5 bg-white/30'
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
 
-            <h2 className="text-[26px] sm:text-[32px] font-semibold tracking-tight text-white leading-[1.15] mb-3">
+            <h2 className="font-serif text-[28px] sm:text-[36px] font-normal tracking-tight text-white leading-[1.15] mb-3">
               {current.title}
             </h2>
 
@@ -90,10 +99,10 @@ export const CinematicBreak: React.FC<CinematicBreakProps> = ({ onOpenEnquiry })
                 onOpenEnquiry &&
                 onOpenEnquiry(`Enquiring about a private retreat (${current.title}) at Max Crest Vagamon`)
               }
-              className="group inline-flex items-center gap-3 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
+              className="group inline-flex items-center gap-3 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs cursor-pointer"
             >
               <span>Plan Your Retreat</span>
-              <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform group-hover:rotate-45">
+              <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
             </button>

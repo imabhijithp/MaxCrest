@@ -11,16 +11,12 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
       {/* Top Split Header Row */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10 sm:mb-12">
         <div>
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#294E35]/15 text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3 shadow-2xs">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-            <span>03 — Resort Experiences</span>
-          </div>
+          <span className="text-xs uppercase tracking-[0.25em] text-[#BB8C52] font-semibold block mb-3">
+            Resort Experiences
+          </span>
 
-          <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-            Relax &amp; Unwind in the{' '}
-            <span className="font-serif italic font-normal text-[#294E35]">
-              Vagamon Hills
-            </span>
+          <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+            Relax and unwind in the Vagamon hills
           </h2>
         </div>
 
@@ -57,7 +53,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
                   Hillside Plunge Pool
                 </h3>
               </div>
-              <span className="w-8 h-8 rounded-full bg-[#294E35] text-white flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:rotate-45">
+              <span className="w-8 h-8 rounded-full bg-[#294E35] text-white flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                 <ArrowUpRight className="w-4 h-4" />
               </span>
             </div>
@@ -90,7 +86,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold">
                   Cosy Evenings
                 </span>
-                <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:rotate-45 shrink-0">
+                <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 shrink-0">
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </span>
               </div>
@@ -120,7 +116,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold">
                   Nature Trails
                 </span>
-                <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:rotate-45 shrink-0">
+                <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 shrink-0">
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </span>
               </div>

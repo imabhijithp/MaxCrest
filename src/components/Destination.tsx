@@ -14,17 +14,13 @@ export const Destination: React.FC = () => {
         <div className="bg-[#EAF1E6] rounded-[32px] p-6 sm:p-10 lg:p-12 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center shadow-[0_4px_24px_rgba(41,78,53,0.04)]">
           {/* Left: Location & Directions */}
           <div className="lg:col-span-6 space-y-5">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#294E35] text-[11px] font-semibold tracking-wider uppercase shadow-2xs">
+            <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-[#BB8C52] font-semibold">
               <Compass className="w-3.5 h-3.5 text-[#BB8C52]" />
-              <span>06 — Location &amp; Directions · Vagamon</span>
+              <span>Location &amp; Directions</span>
             </div>
 
-            <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-semibold tracking-tight text-[#16241A] leading-[1.14]">
-              Where the Hills Meet <br />
-              the{' '}
-              <span className="font-serif italic font-normal text-[#294E35]">
-                Mountain Mist
-              </span>
+            <h2 className="font-serif text-[32px] sm:text-[38px] lg:text-[44px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+              Where the hills meet the mountain mist
             </h2>
 
             <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed max-w-md">

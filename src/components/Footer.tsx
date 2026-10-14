@@ -33,11 +33,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             <span className="text-[10px] uppercase tracking-[0.24em] text-[#BB8C52] font-semibold block mb-2">
               Your Mountain Getaway
             </span>
-            <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-semibold tracking-tight text-white leading-[1.12] mb-3">
-              Plan Your Stay at <br />
-              <span className="font-serif italic font-normal text-[#EAF1E6]">
-                Max Crest Vagamon
-              </span>
+            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[44px] font-normal tracking-tight text-white leading-[1.15] mb-3">
+              Plan your stay at Max Crest Vagamon
             </h2>
             <p className="text-[#EAF1E6]/80 text-xs sm:text-[13px] leading-relaxed">
               Book directly with our on-site team in Vagamon for the best rates, fast answers, and personal assistance for your stay.
@@ -48,10 +45,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             <button
               type="button"
               onClick={() => onOpenEnquiry && onOpenEnquiry()}
-              className="group inline-flex items-center gap-2.5 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-3 rounded-full transition-all shadow-xs"
+              className="group inline-flex items-center gap-2.5 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-3 rounded-full transition-all shadow-xs cursor-pointer"
             >
               <span>Book Your Stay</span>
-              <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform group-hover:rotate-45">
+              <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
             </button>
@@ -85,8 +82,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             </div>
 
             <p className="text-[#EAF1E6]/75 text-xs leading-relaxed max-w-sm">
-              Vagamon Hills, Idukki District, Western Ghats, Kerala, India <br />
-              Coordinates: {resort.coordinates}
+              Vagamon Hills, Idukki District, Western Ghats, Kerala, India
             </p>
 
             <div className="flex flex-wrap items-center gap-2 pt-1">
@@ -193,9 +189,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             © {new Date().getFullYear()} {resort.name}. All Rights Reserved.
           </div>
           <div className="flex items-center gap-4">
-            <span>Western Ghats · Kerala</span>
-            <span>·</span>
-            <span>{resort.coordinates}</span>
+            <span>Western Ghats · Kerala, India</span>
           </div>
         </div>
       </div>

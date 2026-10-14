@@ -38,16 +38,12 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
         {/* Top Split Header + Segmented Pill Switcher */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10 sm:mb-12">
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>04 — Rooms &amp; Suites</span>
-            </div>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#BB8C52] font-semibold block mb-3">
+              Rooms &amp; Suites
+            </span>
 
-            <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-              Private Spaces for{' '}
-              <span className="font-serif italic font-normal text-[#294E35]">
-                Comfort &amp; Scenic Views
-              </span>
+            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+              Private spaces for comfort &amp; scenic views
             </h2>
           </div>
 
@@ -95,7 +91,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
               {/* Bottom Overlay Bar with Thumbnail Previews */}
               <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4">
                 <div className="px-4 py-2 rounded-full bg-[#1E3A27]/85 backdrop-blur-md text-white text-xs font-medium">
-                  0{activeIndex + 1} · {activeSuite.title}
+                  {activeSuite.title}
                 </div>
 
                 <div className="hidden sm:flex items-center gap-2 bg-[#1E3A27]/85 backdrop-blur-md p-1.5 rounded-full">
@@ -122,9 +118,8 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           {/* Right 5 Cols: Young Tea Architectural Suite Card */}
           <div className="lg:col-span-5 bg-[#EAF1E6] rounded-[28px] p-6 sm:p-8 h-auto lg:h-[450px] flex flex-col justify-between shadow-xs">
             <div>
-              <div className="flex items-center justify-between text-[11px] uppercase tracking-[0.2em] text-[#294E35] font-semibold mb-3">
-                <span>Room Highlights</span>
-                <span className="text-[#BB8C52] font-semibold">0{activeIndex + 1} / 0{suites.length}</span>
+              <div className="text-[11px] uppercase tracking-[0.2em] text-[#294E35] font-semibold mb-3">
+                Room Highlights
               </div>
 
               <h3 className="text-2xl sm:text-[28px] font-semibold tracking-tight text-[#16241A] leading-tight mb-4">
@@ -157,10 +152,10 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
                 onClick={() =>
                   onOpenEnquiry(`Enquiring about staying in ${activeSuite.title} at Max Crest Vagamon`)
                 }
-                className="group inline-flex items-center gap-3 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
+                className="group inline-flex items-center gap-3 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs cursor-pointer"
               >
                 <span>Book This Suite</span>
-                <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
+                <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </span>
               </button>

@@ -15,17 +15,12 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
         {/* Top Editorial Split Header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-12 sm:mb-16">
           <div className="lg:col-span-7">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-4">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>01 — About the Resort</span>
-            </div>
+            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#294E35] block mb-3">
+              About the Resort
+            </span>
 
-            <h2 className="text-[30px] sm:text-[38px] lg:text-[44px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-              Designed Around Stillness, <br />
-              Framed by the{' '}
-              <span className="font-serif italic font-normal text-[#294E35]">
-                Western Ghats.
-              </span>
+            <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
+              Designed around nature, framed by the misty Western Ghats.
             </h2>
           </div>
 
@@ -51,7 +46,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
               <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between text-white pointer-events-none">
                 <div>
                   <span className="text-[10px] uppercase tracking-[0.2em] text-[#B8C9B2] block mb-0.5">
-                    Dusk Atmosphere
+                    Twilight View
                   </span>
                   <p className="text-sm font-medium">Illuminated Glass Pavilions</p>
                 </div>
@@ -95,12 +90,10 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
                 <button
                   type="button"
                   onClick={onOpenEnquiry}
-                  className="group inline-flex items-center gap-3 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
+                  className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98]"
                 >
                   <span>Book Your Stay</span>
-                  <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
-                    <ArrowUpRight className="w-3.5 h-3.5" />
-                  </span>
+                  <ArrowUpRight className="w-3.5 h-3.5" />
                 </button>
               </div>
             </div>
