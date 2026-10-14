@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { resort } from '../data/resort';
-import { Phone, Menu, X, ArrowUpRight, MessageSquare } from 'lucide-react';
+import { Phone, Menu, X, ArrowUpRight } from 'lucide-react';
 
 interface NavbarProps {
   onOpenEnquiry: () => void;
@@ -8,10 +8,6 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const whatsappUrl = `https://wa.me/${resort.contact.whatsappNumber}?text=${encodeURIComponent(
-    resort.contact.whatsappDefaultMessage
-  )}`;
 
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -96,17 +92,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
 
           {/* Right: Direct Actions */}
           <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-[#294E35]/15 text-[#294E35] hover:bg-[#EAF1E6]/70 text-xs font-medium transition-colors shrink-0"
-              title="WhatsApp Resort Support"
-            >
-              <MessageSquare className="w-3.5 h-3.5 text-[#294E35]" />
-              <span className="hidden md:inline">WhatsApp</span>
-            </a>
-
             <a
               href={`tel:${resort.contact.phone.replace(/\s+/g, '')}`}
               className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-[#294E35]/15 flex items-center justify-center text-[#294E35] hover:bg-[#EAF1E6]/70 transition-colors shrink-0"
