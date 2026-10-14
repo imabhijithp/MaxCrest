@@ -62,19 +62,13 @@ export function App() {
         {/* 1. Inset Rounded Hero Stage */}
         <Hero onOpenEnquiry={() => handleOpenEnquiry()} />
 
-        {/* 2. Asymmetric 12-Column Architectural Sanctuary Split */}
+        {/* 2. Architectural Introduction */}
         <Introduction onOpenEnquiry={() => handleOpenEnquiry()} />
 
-        {/* 3. Young Tea Architectural Super-Container */}
+        {/* 3. Villa Design & Resort Experiences */}
         <div className="bg-[#EAF1E6] rounded-[36px] sm:rounded-[48px] mx-2 sm:mx-4 lg:mx-6 py-16 sm:py-24 space-y-20 sm:space-y-28 shadow-xs">
-          {/* 3A. Flipped 7/5 Architectural Viewport + Interactive Modular Cards */}
-          <Architecture onOpenEnquiry={handleOpenEnquiry} />
-
-          {/* 3B. Original 5/7 Asymmetric Bento Mosaic (Experiences) */}
+          <Architecture />
           <Experiences onOpenEnquiry={handleOpenEnquiry} />
-
-          {/* 3C. Deep Forest Panorama Stage */}
-          <CinematicBreak onOpenEnquiry={handleOpenEnquiry} />
         </div>
 
         {/* 4. Full Estate Showcase (Whole-Property Buyout) */}
@@ -86,16 +80,21 @@ export function App() {
           }
         />
 
-        {/* 5. Guest Stories & Verified Reviews */}
+        {/* 5. Atmospheric Mountain Panorama Break */}
+        <div className="py-6 sm:py-10">
+          <CinematicBreak onOpenEnquiry={handleOpenEnquiry} />
+        </div>
+
+        {/* 6. Guest Stories & Verified Reviews */}
         <Reviews />
 
-        {/* 6. Curated Rounded Bento Photo Gallery */}
+        {/* 7. Curated Rounded Bento Photo Gallery */}
         <Gallery onSelectImage={handleOpenLightbox} />
 
-        {/* 7. Common Questions & Booking FAQ */}
+        {/* 8. Common Questions & Booking FAQ */}
         <FAQ onOpenEnquiry={handleOpenEnquiry} />
 
-        {/* 8. Vagamon Location & Directions Card */}
+        {/* 9. Vagamon Location & Directions Card */}
         <Destination />
       </main>
 

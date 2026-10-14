@@ -60,8 +60,8 @@ export const Lightbox: React.FC<LightboxProps> = ({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center space-x-4">
-          <span className="text-xs font-mono tracking-widest text-[#BB8C52]">
-            {String(currentIndex + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
+          <span className="text-xs tracking-wider text-[#BB8C52] font-medium">
+            {currentIndex + 1} of {total}
           </span>
           <span className="hidden sm:inline text-xs tracking-wider uppercase text-[#B8C9B2] font-medium border-l border-white/20 pl-4">
             {item.title}
@@ -114,7 +114,7 @@ export const Lightbox: React.FC<LightboxProps> = ({
           e.stopPropagation();
           onNext();
         }}
-        className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-10 p-3 text-stone-400 hover:text-white bg-black/40 hover:bg-black/60 rounded-full transition-all focus:outline-none"
+        className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 z-10 p-3 text-[#B8C9B2] hover:text-white bg-black/40 hover:bg-black/60 rounded-full transition-all focus:outline-none"
         aria-label="Next photograph"
       >
         <ChevronRight className="w-6 h-6 md:w-8 md:h-8" />

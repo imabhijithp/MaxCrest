@@ -27,6 +27,26 @@ export const Destination: React.FC = () => {
               {destination.description}
             </p>
 
+            {/* Practical Travel Distances */}
+            <div className="grid grid-cols-2 gap-2.5 pt-1">
+              <div className="bg-white/80 rounded-xl p-2.5 border border-[#294E35]/10">
+                <span className="text-[10px] uppercase tracking-wider text-[#617364] block">Nearest Airport</span>
+                <span className="text-xs font-semibold text-[#16241A]">Cochin (COK) · ~3 hrs</span>
+              </div>
+              <div className="bg-white/80 rounded-xl p-2.5 border border-[#294E35]/10">
+                <span className="text-[10px] uppercase tracking-wider text-[#617364] block">Nearest Railway</span>
+                <span className="text-xs font-semibold text-[#16241A]">Kottayam · ~2 hrs</span>
+              </div>
+              <div className="bg-white/80 rounded-xl p-2.5 border border-[#294E35]/10">
+                <span className="text-[10px] uppercase tracking-wider text-[#617364] block">Pine Forest</span>
+                <span className="text-xs font-semibold text-[#16241A]">Vagamon · 10 mins</span>
+              </div>
+              <div className="bg-white/80 rounded-xl p-2.5 border border-[#294E35]/10">
+                <span className="text-[10px] uppercase tracking-wider text-[#617364] block">Parking</span>
+                <span className="text-xs font-semibold text-[#16241A]">Private On-Site</span>
+              </div>
+            </div>
+
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href={contact.mapsUrl}

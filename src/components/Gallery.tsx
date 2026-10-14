@@ -17,13 +17,20 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
       ? allItems.slice(0, 6)
       : allItems.filter((item) => item.category === selectedFilter);
 
+  const categoryDisplay: Record<string, string> = {
+    architecture: 'Architecture',
+    sanctuary: 'Villa & Suites',
+    experience: 'Experiences',
+    landscape: 'Landscape & Views',
+  };
+
   const filters: {
     label: string;
     value: 'all' | 'architecture' | 'sanctuary' | 'experience' | 'landscape';
   }[] = [
     { label: 'Featured', value: 'all' },
     { label: 'Architecture', value: 'architecture' },
-    { label: 'Suites', value: 'sanctuary' },
+    { label: 'Villa & Suites', value: 'sanctuary' },
     { label: 'Experiences', value: 'experience' },
     { label: 'Landscape', value: 'landscape' },
   ];
@@ -100,7 +107,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
 
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-[10px] uppercase tracking-wider text-[#B8C9B2] font-medium block mb-0.5">
-                    {item.category}
+                    {categoryDisplay[item.category] || item.category}
                   </span>
                   <h3 className="text-sm font-medium text-white">{item.title}</h3>
                 </div>

@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
-import { ArrowUpRight } from 'lucide-react';
-
-interface ArchitectureProps {
-  onOpenEnquiry?: (note?: string) => void;
-}
 
 const architecturalHighlights = [
   {
-    num: '01',
     tag: 'Location & View',
     title: 'Scenic Hilltop Setting',
     description:
@@ -16,7 +10,6 @@ const architecturalHighlights = [
     alt: 'Max Crest Resort nestled along the green tea slopes of Vagamon',
   },
   {
-    num: '02',
     tag: 'Glass & Timber Design',
     title: 'Glass Pavilions & Wood Decks',
     description:
@@ -25,7 +18,6 @@ const architecturalHighlights = [
     alt: 'Modern architectural facade with vertical timber louvers and glass balconies',
   },
   {
-    num: '03',
     tag: 'Outdoor Terraces',
     title: 'Wooden Walkways & Pool Terrace',
     description:
@@ -35,7 +27,7 @@ const architecturalHighlights = [
   },
 ];
 
-export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => {
+export const Architecture: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number>(1);
   const activeItem = architecturalHighlights[activeIndex];
 
@@ -73,7 +65,7 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
 
             <div className="absolute bottom-5 left-5 right-5 flex items-center justify-between gap-4">
               <div className="px-4 py-2 rounded-full bg-[#1E3A27]/85 backdrop-blur-md border border-white/20 text-white text-xs font-medium">
-                {activeItem.num} · {activeItem.title}
+                {activeItem.title}
               </div>
               <span className="hidden sm:inline-block text-[11px] uppercase tracking-[0.2em] text-[#B8C9B2] font-medium">
                 {activeItem.tag}
@@ -88,7 +80,7 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
             const isActive = idx === activeIndex;
             return (
               <div
-                key={item.num}
+                key={item.title}
                 onClick={() => setActiveIndex(idx)}
                 className={`rounded-[22px] transition-all duration-300 cursor-pointer ${
                   isActive
@@ -99,14 +91,12 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3.5">
                     <span
-                      className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold transition-colors ${
+                      className={`h-2 rounded-full transition-all duration-300 ${
                         isActive
-                          ? 'bg-[#294E35] text-white'
-                          : 'bg-[#B8C9B2]/60 text-[#294E35]'
+                          ? 'w-6 bg-[#294E35]'
+                          : 'w-2 bg-[#294E35]/30'
                       }`}
-                    >
-                      {item.num}
-                    </span>
+                    />
                     <div>
                       <span className="text-[10px] uppercase tracking-[0.18em] text-[#617364] block">
                         {item.tag}
@@ -120,23 +110,9 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
 
                 {isActive && (
                   <div className="mt-4 pt-4 border-t border-[#294E35]/10 animate-fade-in">
-                    <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed mb-5">
+                    <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed">
                       {item.description}
                     </p>
-
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (onOpenEnquiry) {
-                          onOpenEnquiry(`Enquiring about ${item.title} at Max Crest Vagamon`);
-                        }
-                      }}
-                      className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-4 py-2 rounded-full transition-all shadow-xs active:scale-[0.98]"
-                    >
-                      <span>Enquire Details</span>
-                      <ArrowUpRight className="w-3.5 h-3.5" />
-                    </button>
                   </div>
                 )}
               </div>

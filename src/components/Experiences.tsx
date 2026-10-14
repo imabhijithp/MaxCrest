@@ -47,7 +47,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
             <div className="flex items-start justify-between gap-3 mb-2">
               <div>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold block mb-0.5">
-                  Infinity Pool
+                  Private Infinity Pool
                 </span>
                 <h3 className="text-lg font-semibold text-[#16241A]">
                   Hillside Plunge Pool
@@ -58,7 +58,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
               </span>
             </div>
             <p className="text-[#415446] text-xs leading-relaxed">
-              A refreshing infinity pool perched high above the tea slopes of Vagamon, perfect for unwinding as mist rolls across the hills.
+              Your private infinity plunge pool perched high above the tea slopes of Vagamon—completely reserved for your group with zero outside guests.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
             <div className="sm:col-span-7 flex flex-col justify-between py-1 px-1 sm:px-2">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold">
-                  Cosy Evenings
+                  Private Evenings
                 </span>
                 <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 shrink-0">
                   <ArrowUpRight className="w-3.5 h-3.5" />
@@ -95,11 +95,11 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
                 Outdoor Firepit Terrace
               </h3>
               <p className="text-[#415446] text-xs leading-relaxed mb-3">
-                Gather around our open stone firepit with warm tea as cool mountain breezes roll across the deck under starry skies.
+                Gather around our private stone firepit with warm tea or campfire barbecue as cool mountain breezes roll across the deck under starry skies.
               </p>
 
               <span className="text-[11px] font-semibold text-[#294E35] underline underline-offset-4">
-                Book / Enquire Now
+                Arrange Campfire
               </span>
             </div>
           </div>
