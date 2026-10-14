@@ -45,7 +45,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
               Photo Gallery
             </span>
             <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15]">
-              Moments &amp; views across the estate
+              Moments &amp; views across the resort
             </h2>
           </div>
 

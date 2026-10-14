@@ -76,7 +76,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
             <div className="bg-[#EAF1E6] rounded-[24px] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-5 h-auto lg:h-[155px] shadow-xs">
               <div className="space-y-1 max-w-md">
                 <span className="text-[10px] uppercase tracking-[0.22em] text-[#294E35] font-semibold block">
-                  Exclusive Estate Buyout
+                  Exclusive Resort Buyout
                 </span>
                 <h3 className="text-base sm:text-lg font-semibold text-[#16241A]">
                   Total hill-top privacy for your family &amp; group
@@ -92,7 +92,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
                   onClick={onOpenEnquiry}
                   className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98] cursor-pointer"
                 >
-                  <span>Reserve Entire Estate</span>
+                  <span>Reserve Entire Resort</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </button>
               </div>

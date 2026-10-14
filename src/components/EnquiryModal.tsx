@@ -97,10 +97,10 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
         <div className="mb-6">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold mb-3">
             <Sparkles className="w-3 h-3 text-[#BB8C52]" />
-            <span>Exclusive Whole-Estate Buyout · Vagamon</span>
+            <span>Exclusive Whole-Resort Buyout · Vagamon</span>
           </div>
           <h3 id="enquiry-modal-title" className="text-2xl font-semibold tracking-tight text-[#16241A]">
-            Reserve the Entire Estate
+            Reserve the Entire Resort
           </h3>
           <p className="text-xs text-[#415446] mt-1.5 leading-relaxed">
             Mistora Stays is reserved exclusively for one group at a time. Share your dates and group size below, and our team will get in touch directly.

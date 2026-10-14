@@ -53,10 +53,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               Architecture
             </a>
             <a
-              href="#estate"
+              href="#resort"
               className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
             >
-              The Estate
+              The Resort
             </a>
             <a
               href="#experiences"

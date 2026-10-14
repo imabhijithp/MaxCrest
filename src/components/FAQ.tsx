@@ -30,7 +30,7 @@ export const FAQ: React.FC<FAQProps> = () => {
             Everything you need to know
           </h2>
           <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed">
-            Planning a private family getaway or group trip? Here are answers to our guests&apos; most frequent questions about our private estate buyout.
+            Planning a private family getaway or group trip? Here are answers to our guests&apos; most frequent questions about our private resort buyout.
           </p>
         </div>
 

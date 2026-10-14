@@ -56,17 +56,17 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
   const highlights = suiteHighlights[activeIndex] || suiteHighlights[0];
 
   return (
-    <section id="estate" className="py-20 sm:py-28 bg-white text-[#16241A]">
+    <section id="resort" className="py-20 sm:py-28 bg-white text-[#16241A]">
       <div className="w-full max-w-[1280px] mx-auto px-6 sm:px-10">
         {/* Top Split Header + Segmented Pill Switcher */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8 sm:mb-10">
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.25em] text-[#BB8C52] font-semibold block mb-3">
-              Exclusive Whole-Estate Buyout
+              Exclusive Whole-Resort Buyout
             </span>
 
             <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[46px] font-normal tracking-tight text-[#16241A] leading-[1.15] mb-3">
-              The entire estate is exclusively yours
+              The entire resort is exclusively yours
             </h2>
 
             <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed">
@@ -78,7 +78,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           <div
             className="inline-flex items-center bg-[#EAF1E6] p-1.5 rounded-full gap-1 self-start lg:self-auto shadow-2xs"
             role="tablist"
-            aria-label="Estate spaces"
+            aria-label="Resort spaces"
           >
             {suites.map((suite, idx) => {
               const isActive = idx === activeIndex;
@@ -146,7 +146,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           <div className="lg:col-span-5 bg-[#EAF1E6] rounded-[28px] p-6 sm:p-8 h-auto lg:h-[450px] flex flex-col justify-between shadow-xs">
             <div>
               <div className="flex items-center justify-between text-[11px] uppercase tracking-[0.2em] text-[#294E35] font-semibold mb-3">
-                <span>Estate Space Tour</span>
+                <span>Resort Space Tour</span>
                 <span className="text-[#BB8C52] font-semibold">Included in Buyout</span>
               </div>
 
@@ -182,12 +182,12 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
                 type="button"
                 onClick={() =>
                   onOpenEnquiry(
-                    `Enquiring about reserving the entire Mistora Stays estate in Vagamon for our group.`
+                    `Enquiring about reserving the entire Mistora Stays resort in Vagamon for our group.`
                   )
                 }
                 className="group inline-flex items-center gap-2.5 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs cursor-pointer"
               >
-                <span>Reserve Entire Estate</span>
+                <span>Reserve Entire Resort</span>
                 <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </span>
@@ -196,7 +196,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           </div>
         </div>
 
-        {/* 4-Col Whole-Estate Buyout Inclusions Strip */}
+        {/* 4-Col Whole-Resort Buyout Inclusions Strip */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-4">
           {buyoutHighlights.map((item, idx) => {
             const Icon = item.icon;

@@ -71,11 +71,11 @@ export function App() {
           <Experiences onOpenEnquiry={handleOpenEnquiry} />
         </div>
 
-        {/* 4. Full Estate Showcase (Whole-Property Buyout) */}
+        {/* 4. Full Resort Showcase (Whole-Property Buyout) */}
         <Sanctuaries
           onOpenEnquiry={(note) =>
             handleOpenEnquiry(
-              note || 'Enquiring about reserving the entire Mistora Stays estate in Vagamon'
+              note || 'Enquiring about reserving the entire Mistora Stays resort in Vagamon'
             )
           }
         />

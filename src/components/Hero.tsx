@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         <div className="absolute inset-x-0 top-6 sm:top-8 px-6 sm:px-10 md:px-14 flex items-center justify-between z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium tracking-wide">
             <Compass className="w-3.5 h-3.5 text-[#BB8C52]" />
-            <span>Vagamon Hills, Kerala · Exclusive Private Estate</span>
+            <span>Vagamon Hills, Kerala · Exclusive Private Resort</span>
           </div>
         </div>
 
@@ -59,15 +59,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
                     onClick={onOpenEnquiry}
                     className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98] cursor-pointer"
                   >
-                    <span>Reserve Entire Estate</span>
+                    <span>Reserve Entire Resort</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </button>
 
                   <a
-                    href="#estate"
+                    href="#resort"
                     className="inline-flex items-center px-5 py-3 rounded-full border border-white/25 hover:bg-white/10 text-white text-xs font-medium transition-colors cursor-pointer"
                   >
-                    Tour the Estate
+                    Tour the Resort
                   </a>
                 </div>
               </div>

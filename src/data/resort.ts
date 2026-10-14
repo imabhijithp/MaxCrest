@@ -70,7 +70,7 @@ export interface FaqItem {
 export const resort = {
   name: "Mistora Stays",
   shortName: "Mistora Stays",
-  tagline: "Exclusive Private Mountain Estate",
+  tagline: "Exclusive Private Mountain Resort",
   location: "Vagamon, Kerala",
   subLocation: "Western Ghats, Kerala, India",
   coordinates: "9.6885° N, 76.9056° E",
@@ -81,7 +81,7 @@ export const resort = {
     phone: "+91 94000 00000",
     phoneDisplay: "+91 94000 00000",
     whatsappNumber: "919400000000", // International format without +
-    whatsappDefaultMessage: "Hello Mistora Stays, I would like to enquire about reserving the whole estate in Vagamon for our group.",
+    whatsappDefaultMessage: "Hello Mistora Stays, I would like to enquire about reserving the whole resort in Vagamon for our group.",
     email: "stay@mistorastays.in",
     website: "https://mistorastays.in",
     domain: "mistorastays.in",
@@ -92,7 +92,7 @@ export const resort = {
   navigation: [
     { label: "About", href: "#sanctuary", number: "01", previewImage: "./images/architecture-landscape.jpg" },
     { label: "Architecture", href: "#architecture", number: "02", previewImage: "./images/villa-twilight-glow.jpg" },
-    { label: "The Estate", href: "#estate", number: "03", previewImage: "./images/suite-master-bedroom.jpg" },
+    { label: "The Resort", href: "#resort", number: "03", previewImage: "./images/suite-master-bedroom.jpg" },
     { label: "Experiences", href: "#experiences", number: "04", previewImage: "./images/infinity-plunge-pool.jpg" },
     { label: "Reviews", href: "#reviews", number: "05", previewImage: "./images/villa-twilight-glow.jpg" },
     { label: "Gallery", href: "#gallery", number: "06", previewImage: "./images/hero-sunset-panoramic.jpg" },
@@ -103,11 +103,11 @@ export const resort = {
   hero: {
     image: "./images/hero-estate-overview.jpg",
     mobileImage: "./images/hero-sunset-panoramic.jpg",
-    eyebrow: "VAGAMON · EXCLUSIVE PRIVATE ESTATE",
+    eyebrow: "VAGAMON · EXCLUSIVE PRIVATE RESORT",
     title: "A quieter side of the mountains.",
     description: "An exclusive private mountain retreat in Vagamon, reserved entirely for your family or group. Modern glass pavilions, private plunge pool, and pure Western Ghats stillness with zero outside guests.",
-    ctaPrimary: "Explore the Estate",
-    ctaSecondary: "Reserve the Entire Estate",
+    ctaPrimary: "Explore the Resort",
+    ctaSecondary: "Reserve the Entire Resort",
   },
 
   introduction: {
@@ -122,7 +122,7 @@ export const resort = {
     secondaryImageAlt: "Timber walkway alongside the glass facade and water's edge",
     provenance: [
       { label: "LOCATION", value: "Vagamon Hills, Kerala" },
-      { label: "BOOKING TYPE", value: "100% Private Whole-Estate Buyout" },
+      { label: "BOOKING TYPE", value: "100% Private Whole-Resort Buyout" },
       { label: "CAPACITY", value: "Up to 10–12 Guests Privately" },
       { label: "WEATHER", value: "Cool Breeze, Mountain Mist & Pleasant Days" },
     ]
@@ -172,7 +172,7 @@ export const resort = {
       spatialCategory: "Tea Garden Balcony",
       vista: "Undulating Tea Slopes & Shifting Fog",
       materials: "Teak Wood Interiors & Stone Accents",
-      orientation: "Tea Estate Facing",
+      orientation: "Tea Garden Facing",
       description: "Sliding glass doors frame lush tea slopes, allowing the cool mountain breeze to flow effortlessly through the room.",
       features: ["Framed ridge perspectives", "Private veranda seating", "Minimalist natural palette", "Cool mountain breeze"],
       image: "./images/suite-balcony-view.jpg",
@@ -187,7 +187,7 @@ export const resort = {
       materials: "Floor-to-Ceiling Glass & Luxury Seating",
       orientation: "Main Resort Living Area",
       description: "Soaring glass walls dissolve the boundary between cozy indoor lounging and panoramic views of the Western Ghats.",
-      features: ["Double-height glass walls", "Panoramic tea estate views", "Spacious luxury seating", "Natural mountain daylight"],
+      features: ["Double-height glass walls", "Panoramic tea garden views", "Spacious luxury seating", "Natural mountain daylight"],
       image: "./images/lounge-double-height.jpg",
       alt: "Double-height glass living lounge overlooking green hills",
     },
@@ -227,7 +227,7 @@ export const resort = {
         title: "Tea Garden Nature Walk",
         tag: "AFTERNOON · NATURE TRAILS",
         timeOfDay: "15:00 — 17:30",
-        description: "Take peaceful walks along estate tea paths lined with pine trees, enjoying 360-degree panoramic views of the Western Ghats.",
+        description: "Take peaceful walks along resort tea paths lined with pine trees, enjoying 360-degree panoramic views of the Western Ghats.",
         image: "./images/hero-estate-overview.jpg",
         alt: "Panoramic tea garden slopes and highland ridges of Vagamon"
       }
@@ -246,7 +246,7 @@ export const resort = {
       {
         title: "Tea Hills",
         tag: "Scenery",
-        description: "Vast rolling tea estates and pine-covered mountain trails to explore at leisure.",
+        description: "Vast rolling tea plantations and pine-covered mountain trails to explore at leisure.",
       }
     ]
   },
@@ -263,7 +263,7 @@ export const resort = {
       id: "g1",
       src: "./images/hero-estate-overview.jpg",
       alt: "Panoramic landscape view of Mistora Stays perched on the Vagamon hillside",
-      title: "The Estate & Hillside",
+      title: "The Resort & Hillside",
       category: "landscape",
       aspect: "landscape",
       caption: "Panoramic perspective of the resort nestled along the contours of the tea hills.",
@@ -289,7 +289,7 @@ export const resort = {
     {
       id: "g4",
       src: "./images/lounge-mountain-view.jpg",
-      alt: "Double-height living space framing tea estate views",
+      alt: "Double-height living space framing tea garden views",
       title: "High-Ceiling Living Vista",
       category: "sanctuary",
       aspect: "portrait",
@@ -408,7 +408,7 @@ export const resort = {
 
   estateBuyout: {
     badge: "100% PRIVATE & EXCLUSIVE",
-    tagline: "The Entire Estate Is Exclusively Yours",
+    tagline: "The Entire Resort Is Exclusively Yours",
     description: "Mistora Stays does not rent individual rooms to separate travelers. Every booking reserves the complete resort property exclusively for your family or private group, ensuring absolute privacy, personalized on-site service, and undivided access to all amenities.",
     capacity: "Accommodates up to 10–12 guests comfortably",
     spacesIncluded: [
@@ -477,13 +477,13 @@ export const resort = {
       id: "faq-1",
       category: "Booking & Privacy",
       question: "Can we book only a single room at Mistora Stays?",
-      answer: "No, Mistora Stays is rented exclusively as a full-estate private buyout. When you make a reservation, the entire property—including all suites, the living pavilion, private infinity pool, and firepit deck—is reserved solely for you and your group. There will never be any outside guests during your stay."
+      answer: "No, Mistora Stays is rented exclusively as a full-resort private buyout. When you make a reservation, the entire property—including all suites, the living pavilion, private infinity pool, and firepit deck—is reserved solely for you and your group. There will never be any outside guests during your stay."
     },
     {
       id: "faq-2",
       category: "Capacity & Guests",
-      question: "How many guests can stay at the estate?",
-      answer: "The estate comfortably hosts up to 10–12 guests across our private suites and spacious living areas. Extra beds and arrangements can be provided upon request for larger families or intimate celebrations."
+      question: "How many guests can stay at the resort?",
+      answer: "The resort comfortably hosts up to 10–12 guests across our private suites and spacious living areas. Extra beds and arrangements can be provided upon request for larger families or intimate celebrations."
     },
     {
       id: "faq-3",

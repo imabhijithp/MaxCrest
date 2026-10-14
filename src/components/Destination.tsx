@@ -78,7 +78,7 @@ export const Destination: React.FC = () => {
             </div>
           </div>
 
-          {/* Right: Rounded Estate Photo */}
+          {/* Right: Rounded Resort Photo */}
           <div className="lg:col-span-6">
             <div className="rounded-[24px] overflow-hidden aspect-[16/10] bg-white shadow-[0_4px_24px_rgba(41,78,53,0.06)]">
               <img

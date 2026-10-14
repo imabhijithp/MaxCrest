@@ -36,11 +36,11 @@ export const CinematicBreak: React.FC<CinematicBreakProps> = ({ onOpenEnquiry })
             type="button"
             onClick={() =>
               onOpenEnquiry &&
-              onOpenEnquiry('Enquiring about reserving the entire Mistora Stays estate in Vagamon')
+              onOpenEnquiry('Enquiring about reserving the entire Mistora Stays resort in Vagamon')
             }
             className="group inline-flex items-center gap-3 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-6 pr-3 py-3 rounded-full transition-all shadow-lg cursor-pointer active:scale-[0.98]"
           >
-            <span>Reserve the Entire Estate</span>
+            <span>Reserve the Entire Resort</span>
             <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
               <ArrowUpRight className="w-3.5 h-3.5" />
             </span>
