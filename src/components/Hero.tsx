@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         <div className="absolute inset-x-0 top-6 sm:top-8 px-6 sm:px-10 md:px-14 flex items-center justify-between z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium tracking-wide">
             <Compass className="w-3.5 h-3.5 text-[#BB8C52]" />
-            <span>Vagamon Hills, Kerala · Western Ghats</span>
+            <span>Vagamon Hills, Kerala · Exclusive Private Estate</span>
           </div>
         </div>
 
@@ -50,24 +50,24 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
             <div className="lg:col-span-5">
               <div className="bg-black/40 backdrop-blur-xl border border-white/15 rounded-[24px] p-5 sm:p-6 text-white shadow-xl">
                 <p className="text-white/90 text-xs sm:text-[13px] leading-relaxed mb-5">
-                  Set along the scenic green hills of Vagamon, Kerala, Max Crest offers panoramic valley views, fresh pine breezes, and modern luxury suites.
+                  An exclusive private villa retreat in the hills of Vagamon, reserved entirely for your family or group. Panoramic glass pavilions, private plunge pool, and pure mountain stillness with zero outside guests.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3">
                   <button
                     type="button"
                     onClick={onOpenEnquiry}
-                    className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98]"
+                    className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98] cursor-pointer"
                   >
-                    <span>Book Your Stay</span>
+                    <span>Reserve Entire Estate</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </button>
 
                   <a
-                    href="#sanctuary"
-                    className="inline-flex items-center px-5 py-3 rounded-full border border-white/25 hover:bg-white/10 text-white text-xs font-medium transition-colors"
+                    href="#estate"
+                    className="inline-flex items-center px-5 py-3 rounded-full border border-white/25 hover:bg-white/10 text-white text-xs font-medium transition-colors cursor-pointer"
                   >
-                    Explore the Resort
+                    Tour the Estate
                   </a>
                 </div>
               </div>

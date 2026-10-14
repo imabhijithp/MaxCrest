@@ -49,6 +49,24 @@ export interface ExperienceItem {
   tag: string;
 }
 
+export interface ReviewItem {
+  id: string;
+  name: string;
+  location: string;
+  tripType: string;
+  rating: number;
+  date: string;
+  comment: string;
+  highlight: string;
+}
+
+export interface FaqItem {
+  id: string;
+  question: string;
+  answer: string;
+  category: string;
+}
+
 export const resort = {
   name: "Max Crest Premium Resort Vagamon",
   shortName: "Max Crest",
@@ -63,7 +81,7 @@ export const resort = {
     phone: "+91 94000 00000",
     phoneDisplay: "+91 94000 00000",
     whatsappNumber: "919400000000", // International format without +
-    whatsappDefaultMessage: "Hello Max Crest, I would like to enquire about staying at the resort in Vagamon.",
+    whatsappDefaultMessage: "Hello Max Crest, I would like to enquire about reserving the whole estate in Vagamon for our group.",
     email: "reservations@maxcrestvagamon.com",
     mapsUrl: "https://maps.google.com/?q=Max+Crest+Premium+Resort+Vagamon+Kerala",
     instagramUrl: "https://instagram.com",
@@ -72,36 +90,38 @@ export const resort = {
   navigation: [
     { label: "About", href: "#sanctuary", number: "01", previewImage: "./images/architecture-landscape.jpg" },
     { label: "Architecture", href: "#architecture", number: "02", previewImage: "./images/villa-twilight-glow.jpg" },
-    { label: "Suites", href: "#suites", number: "03", previewImage: "./images/suite-master-bedroom.jpg" },
+    { label: "The Estate", href: "#estate", number: "03", previewImage: "./images/suite-master-bedroom.jpg" },
     { label: "Experiences", href: "#experiences", number: "04", previewImage: "./images/infinity-plunge-pool.jpg" },
-    { label: "Gallery", href: "#gallery", number: "05", previewImage: "./images/hero-sunset-panoramic.jpg" },
-    { label: "Location", href: "#destination", number: "06", previewImage: "./images/architecture-landscape.jpg" },
+    { label: "Reviews", href: "#reviews", number: "05", previewImage: "./images/villa-twilight-glow.jpg" },
+    { label: "Gallery", href: "#gallery", number: "06", previewImage: "./images/hero-sunset-panoramic.jpg" },
+    { label: "FAQ", href: "#faq", number: "07", previewImage: "./images/lounge-mountain-view.jpg" },
+    { label: "Location", href: "#destination", number: "08", previewImage: "./images/architecture-landscape.jpg" },
   ],
 
   hero: {
     image: "./images/hero-estate-overview.jpg",
     mobileImage: "./images/hero-sunset-panoramic.jpg",
-    eyebrow: "VAGAMON · KERALA",
+    eyebrow: "VAGAMON · EXCLUSIVE PRIVATE ESTATE",
     title: "A quieter side of the mountains.",
-    description: "Perched along the emerald ridges of Vagamon, where modern glass pavilions meet the shifting mist and stillness of the Western Ghats.",
-    ctaPrimary: "Explore the Resort",
-    ctaSecondary: "Book Your Stay",
+    description: "An exclusive private mountain retreat in Vagamon, reserved entirely for your family or group. Modern glass pavilions, private plunge pool, and pure Western Ghats stillness with zero outside guests.",
+    ctaPrimary: "Explore the Estate",
+    ctaSecondary: "Reserve the Entire Estate",
   },
 
   introduction: {
     number: "01",
     eyebrow: "ABOUT THE RESORT",
     title: "A place shaped by stillness.",
-    description: "Far removed from busy schedules, Max Crest is a boutique luxury getaway designed for pure relaxation. Here, modern glass villas open directly to undulating tea slopes, morning mist, and panoramic Western Ghats horizons.",
-    quote: "“Wake up to the clouds, breathe in the fresh mountain air, and unwind in complete privacy.”",
+    description: "Max Crest is an exclusive private villa retreat reserved entirely for one family or private group at a time. Enjoy complete hill-top privacy with no other guests — featuring panoramic glass bedrooms, a private hillside plunge pool, double-height living lounge, and uninterrupted Western Ghats horizons.",
+    quote: "“The entire mountain villa exclusively for your family — pure privacy, cool mist, and untouched nature.”",
     featureImage: "./images/hero-sunset-panoramic.jpg",
     featureImageAlt: "Panoramic sunset horizon over tea slopes and misty mountain ridges in Vagamon",
     secondaryImage: "./images/boardwalk-walkway.jpg",
     secondaryImageAlt: "Timber walkway alongside the glass facade and water's edge",
     provenance: [
       { label: "LOCATION", value: "Vagamon Hills, Kerala" },
-      { label: "SCENERY", value: "Lush Tea Gardens & Valleys" },
-      { label: "ELEVATION", value: "1,100 Meters Above Sea Level" },
+      { label: "BOOKING TYPE", value: "100% Private Whole-Estate Buyout" },
+      { label: "CAPACITY", value: "Up to 10–12 Guests Privately" },
       { label: "WEATHER", value: "Cool Breeze, Mountain Mist & Pleasant Days" },
     ]
   },
@@ -382,5 +402,110 @@ export const resort = {
     title: "Plan your mountain getaway.",
     subtitle: "To ensure personal care, prompt support, and the best rates, all bookings at Max Crest are handled directly by our on-site team.",
     note: "Reach out via WhatsApp, phone call, or the quick form below. We are here to help you plan your visit.",
-  }
+  },
+
+  estateBuyout: {
+    badge: "100% PRIVATE & EXCLUSIVE",
+    tagline: "The Entire Estate Is Exclusively Yours",
+    description: "Max Crest does not rent individual rooms to separate travelers. Every booking reserves the complete resort property exclusively for your family or private group, ensuring absolute privacy, personalized on-site service, and undivided access to all amenities.",
+    capacity: "Accommodates up to 10–12 guests comfortably",
+    spacesIncluded: [
+      {
+        title: "All Private Bedrooms & Suites",
+        desc: "King beds, private view balconies, and floor-to-ceiling glass walls looking out to the misty valley."
+      },
+      {
+        title: "Hillside Infinity Plunge Pool",
+        desc: "Reserved 100% for your group with expansive wooden sundeck and tea garden panorama."
+      },
+      {
+        title: "Double-Height Glass Living Lounge",
+        desc: "Spacious communal living and dining pavilion with soaring timber ceilings and natural light."
+      },
+      {
+        title: "Outdoor Sunset Firepit Deck",
+        desc: "Private stone campfire terrace for evening gatherings, hot Kerala tea, and barbecue under the stars."
+      },
+      {
+        title: "Dedicated On-Site Caretakers",
+        desc: "Attentive hospitality team on premises to prepare home-cooked Kerala meals and assist your group."
+      },
+      {
+        title: "Private Lawns & Tea Trails",
+        desc: "Direct access to private nature trails and scenic vantage points across the 1,100M ridge."
+      }
+    ]
+  },
+
+  reviews: [
+    {
+      id: "rev-1",
+      name: "Arun & Divya Nair",
+      location: "Kochi, Kerala",
+      tripType: "Family Vacation (9 Guests)",
+      rating: 5,
+      date: "Stayed December 2025",
+      comment: "Having the entire property to ourselves was the best decision for our family reunion. The kids loved the plunge pool, the elders sat on the balcony watching the fog roll in, and the staff made delicious authentic Kerala meals. Complete privacy with breathtaking views.",
+      highlight: "Complete privacy for our whole family"
+    },
+    {
+      id: "rev-2",
+      name: "Karthik Subramanian",
+      location: "Bangalore, Karnataka",
+      tripType: "Friends Getaway (8 Guests)",
+      rating: 5,
+      date: "Stayed January 2026",
+      comment: "Unlike crowded resorts where you share pools and dining spaces, Max Crest was 100% our private haven. The glass living room is stunning at night, and the evening bonfire was magical with cold mountain wind. The caretakers were super friendly and helpful.",
+      highlight: "Zero crowds, magical campfire deck"
+    },
+    {
+      id: "rev-3",
+      name: "Sneha & Roshan Thomas",
+      location: "Chennai, Tamil Nadu",
+      tripType: "Private Group Retreat (11 Guests)",
+      rating: 5,
+      date: "Stayed February 2026",
+      comment: "The photos look great, but the reality is even more peaceful. Waking up to 180-degree mist over the tea valleys from the master bedroom was unforgettable. Booking the entire villa meant we could relax on our own schedule without worrying about other guests.",
+      highlight: "Unforgettable sunrise mist over the valley"
+    }
+  ] as ReviewItem[],
+
+  faqs: [
+    {
+      id: "faq-1",
+      category: "Booking & Privacy",
+      question: "Can we book only a single room at Max Crest?",
+      answer: "No, Max Crest is rented exclusively as a full-estate private buyout. When you make a reservation, the entire property—including all suites, the living pavilion, private infinity pool, and firepit deck—is reserved solely for you and your group. There will never be any outside guests during your stay."
+    },
+    {
+      id: "faq-2",
+      category: "Capacity & Guests",
+      question: "How many guests can stay at the estate?",
+      answer: "The estate comfortably hosts up to 10–12 guests across our private suites and spacious living areas. Extra beds and arrangements can be provided upon request for larger families or intimate celebrations."
+    },
+    {
+      id: "faq-3",
+      category: "Food & Dining",
+      question: "What dining and meal options are available?",
+      answer: "We have an on-site kitchen and dedicated caretakers who prepare fresh, home-cooked Kerala and Indian delicacies. You can coordinate your breakfast, lunch, tea-time snacks, dinner, and campfire barbecue directly with the team before and during your stay."
+    },
+    {
+      id: "faq-4",
+      category: "Amenities",
+      question: "Is the infinity plunge pool private?",
+      answer: "Yes, 100% private. Since you book the entire property, the hillside plunge pool, wooden sundeck, and outdoor firepit terrace are entirely yours to enjoy whenever you wish."
+    },
+    {
+      id: "faq-5",
+      category: "Check-in & Location",
+      question: "What are the check-in and check-out timings?",
+      answer: "Standard check-in is at 2:00 PM and check-out is at 11:00 AM. If you require early arrival or late departure, let us know when booking and we will accommodate based on availability."
+    },
+    {
+      id: "faq-6",
+      category: "Access & Roads",
+      question: "Is the resort accessible by car?",
+      answer: "Yes, the property is situated on accessible paved mountain roads in Vagamon with secure on-site parking for multiple cars and traveler vans. Live GPS location and turn-by-turn guidance are provided as soon as your booking is confirmed."
+    }
+  ] as FaqItem[]
 };

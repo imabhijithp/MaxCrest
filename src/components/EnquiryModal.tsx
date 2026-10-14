@@ -97,13 +97,13 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
         <div className="mb-6">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold mb-3">
             <Sparkles className="w-3 h-3 text-[#BB8C52]" />
-            <span>Direct Booking · Vagamon</span>
+            <span>Exclusive Whole-Estate Buyout · Vagamon</span>
           </div>
           <h3 id="enquiry-modal-title" className="text-2xl font-semibold tracking-tight text-[#16241A]">
-            Plan Your Mountain Stay
+            Reserve the Entire Estate
           </h3>
           <p className="text-xs text-[#415446] mt-1.5 leading-relaxed">
-            Share your details below and our Vagamon team will get in touch directly to help you book your stay.
+            Max Crest is reserved exclusively for one group at a time. Share your dates and group size below, and our team will get in touch directly.
           </p>
         </div>
 
@@ -153,13 +153,13 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
 
           <div>
             <label className="block text-xs font-medium text-[#16241A] mb-1.5">
-              Message or Specific Requests
+              Dates, Number of Guests &amp; Notes
             </label>
             <textarea
               rows={3}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Tell us about your intended retreat, dates of interest, or suite preferences..."
+              placeholder="e.g. Planning a family trip for 10 guests from Dec 24–27. Would like to enquire about meal arrangements..."
               className="w-full px-4 py-2.5 rounded-xl bg-[#EAF1E6]/40 border border-black/[0.08] text-[#16241A] text-xs sm:text-sm focus:outline-none focus:bg-white focus:border-[#294E35] transition-all resize-none"
             />
           </div>

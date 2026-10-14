@@ -57,26 +57,38 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               Architecture
             </a>
             <a
-              href="#suites"
-              className="px-4 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all"
+              href="#estate"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
             >
-              Suites
+              The Estate
             </a>
             <a
               href="#experiences"
-              className="px-4 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
             >
               Experiences
             </a>
             <a
+              href="#reviews"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
+            >
+              Reviews
+            </a>
+            <a
               href="#gallery"
-              className="px-4 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
             >
               Gallery
             </a>
             <a
+              href="#faq"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
+            >
+              FAQ
+            </a>
+            <a
               href="#destination"
-              className="px-4 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all"
+              className="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all whitespace-nowrap"
             >
               Location
             </a>

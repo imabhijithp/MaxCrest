@@ -8,6 +8,8 @@ import { Sanctuaries } from './components/Sanctuaries';
 import { Experiences } from './components/Experiences';
 import { CinematicBreak } from './components/CinematicBreak';
 import { Gallery } from './components/Gallery';
+import { Reviews } from './components/Reviews';
+import { FAQ } from './components/FAQ';
 import { Destination } from './components/Destination';
 import { Footer } from './components/Footer';
 import { FloatingCTA } from './components/FloatingCTA';
@@ -75,17 +77,25 @@ export function App() {
           <CinematicBreak onOpenEnquiry={handleOpenEnquiry} />
         </div>
 
-        {/* 4. Segmented Pill Tabs + 3-Panel Peek Carousel (Suites & Spaces) */}
+        {/* 4. Full Estate Showcase (Whole-Property Buyout) */}
         <Sanctuaries
           onOpenEnquiry={(note) =>
-            handleOpenEnquiry(note || 'Enquiring about suite accommodation details')
+            handleOpenEnquiry(
+              note || 'Enquiring about reserving the entire Max Crest estate in Vagamon'
+            )
           }
         />
 
-        {/* 5. Curated Rounded Bento Photo Gallery */}
+        {/* 5. Guest Stories & Verified Reviews */}
+        <Reviews />
+
+        {/* 6. Curated Rounded Bento Photo Gallery */}
         <Gallery onSelectImage={handleOpenLightbox} />
 
-        {/* 6. Vagamon Location & Directions Card */}
+        {/* 7. Common Questions & Booking FAQ */}
+        <FAQ onOpenEnquiry={handleOpenEnquiry} />
+
+        {/* 8. Vagamon Location & Directions Card */}
         <Destination />
       </main>
 

@@ -47,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               onClick={() => onOpenEnquiry && onOpenEnquiry()}
               className="group inline-flex items-center gap-2.5 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-3 rounded-full transition-all shadow-xs cursor-pointer"
             >
-              <span>Book Your Stay</span>
+              <span>Reserve Entire Estate</span>
               <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
@@ -131,8 +131,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
                 </a>
               </li>
               <li>
-                <a href="#suites" className="hover:text-white transition-colors">
-                  Rooms &amp; Suites
+                <a href="#estate" className="hover:text-white transition-colors">
+                  The Estate Buyout
                 </a>
               </li>
               <li>
@@ -141,8 +141,18 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
                 </a>
               </li>
               <li>
+                <a href="#reviews" className="hover:text-white transition-colors">
+                  Guest Reviews
+                </a>
+              </li>
+              <li>
                 <a href="#gallery" className="hover:text-white transition-colors">
                   Photo Gallery
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-white transition-colors">
+                  FAQ &amp; Booking
                 </a>
               </li>
               <li>
@@ -166,7 +176,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
                 type="text"
                 value={quickNote}
                 onChange={(e) => setQuickNote(e.target.value)}
-                placeholder="Ask about dates, rooms, or rates..."
+                placeholder="Ask about dates, group size, or rates..."
                 aria-label="Quick stay enquiry"
                 className="bg-transparent text-xs text-white placeholder:text-white/40 focus:outline-none w-full pr-3"
               />

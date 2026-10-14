@@ -76,13 +76,13 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
             <div className="bg-[#EAF1E6] rounded-[24px] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-5 h-auto lg:h-[155px] shadow-xs">
               <div className="space-y-1 max-w-md">
                 <span className="text-[10px] uppercase tracking-[0.22em] text-[#294E35] font-semibold block">
-                  Boutique Hillside Resort
+                  Exclusive Estate Buyout
                 </span>
                 <h3 className="text-base sm:text-lg font-semibold text-[#16241A]">
-                  Personal service and peaceful privacy
+                  Total hill-top privacy for your family &amp; group
                 </h3>
                 <p className="text-xs text-[#415446] leading-relaxed">
-                  Every booking is handled directly by our on-site team in Vagamon—guaranteeing personal care, best rates, and a hassle-free stay.
+                  The entire property is exclusively yours. Handled directly by our on-site team in Vagamon—guaranteeing personal care, delicious food, and zero outside guests.
                 </p>
               </div>
 
@@ -90,9 +90,9 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
                 <button
                   type="button"
                   onClick={onOpenEnquiry}
-                  className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98]"
+                  className="inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold px-5 py-3 rounded-full transition-all shadow-xs active:scale-[0.98] cursor-pointer"
                 >
-                  <span>Book Your Stay</span>
+                  <span>Reserve Entire Estate</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </button>
               </div>
