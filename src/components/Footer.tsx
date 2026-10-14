@@ -16,7 +16,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
   const handleQuickSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (onOpenEnquiry) {
-      onOpenEnquiry(quickNote || 'I would like to enquire about staying at Max Crest Vagamon.');
+      onOpenEnquiry(quickNote || 'I would like to enquire about staying at Mistora Stays Vagamon.');
       setQuickNote('');
     } else {
       window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               Your Mountain Getaway
             </span>
             <h2 className="font-serif text-[32px] sm:text-[40px] lg:text-[44px] font-normal tracking-tight text-white leading-[1.15] mb-3">
-              Plan your stay at Max Crest Vagamon
+              Plan your stay at Mistora Stays Vagamon
             </h2>
             <p className="text-[#EAF1E6]/80 text-xs sm:text-[13px] leading-relaxed">
               Book directly with our on-site team in Vagamon for the best rates, fast answers, and personal assistance for your stay.
@@ -70,13 +70,13 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
           {/* Col 1 (5 cols): Serif Brand Wordmark + Location + Quick Action Badges */}
           <div className="lg:col-span-5 space-y-5">
             <div>
-              <div className="font-serif text-3xl sm:text-4xl tracking-[0.14em] text-white leading-none">
-                MAX CREST
+              <div className="font-serif text-3xl sm:text-4xl tracking-[0.06em] font-bold text-white leading-none">
+                Mistora Stays
               </div>
               <div className="flex items-center gap-2 mt-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
                 <span className="text-[9px] tracking-[0.3em] uppercase text-[#B8C9B2] font-medium block">
-                  PREMIUM RESORT VAGAMON · KERALA
+                  EXCLUSIVE MOUNTAIN ESTATE · VAGAMON
                 </span>
               </div>
             </div>
@@ -198,7 +198,16 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
           <div>
             © {new Date().getFullYear()} {resort.name}. All Rights Reserved.
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
+            <a
+              href="https://mistorastays.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#B8C9B2] hover:text-white transition-colors underline underline-offset-4"
+            >
+              mistorastays.in
+            </a>
+            <span>·</span>
             <span>Western Ghats · Kerala, India</span>
           </div>
         </div>

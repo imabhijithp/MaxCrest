@@ -70,7 +70,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
             </h2>
 
             <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed">
-              We do not rent individual rooms to separate guests. When you book Max Crest, your family or group receives complete private access to all bedroom suites, living pavilions, infinity plunge pool, and campfire grounds with zero outside guests.
+              We do not rent individual rooms to separate guests. When you book Mistora Stays, your family or group receives complete private access to all bedroom suites, living pavilions, infinity plunge pool, and campfire grounds with zero outside guests.
             </p>
           </div>
 
@@ -182,7 +182,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
                 type="button"
                 onClick={() =>
                   onOpenEnquiry(
-                    `Enquiring about reserving the entire Max Crest estate in Vagamon for our group.`
+                    `Enquiring about reserving the entire Mistora Stays estate in Vagamon for our group.`
                   )
                 }
                 className="group inline-flex items-center gap-2.5 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs cursor-pointer"

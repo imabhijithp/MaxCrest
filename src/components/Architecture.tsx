@@ -7,7 +7,7 @@ const architecturalHighlights = [
     description:
       'Positioned along a peaceful green crest in Vagamon, the resort is designed to give you panoramic, uninterrupted views of tea gardens and misty mountain valleys.',
     image: './images/architecture-landscape.jpg',
-    alt: 'Max Crest Resort nestled along the green tea slopes of Vagamon',
+    alt: 'Mistora Stays Resort nestled along the green tea slopes of Vagamon',
   },
   {
     tag: 'Glass & Timber Design',

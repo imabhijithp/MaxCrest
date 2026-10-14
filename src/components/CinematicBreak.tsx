@@ -12,7 +12,7 @@ export const CinematicBreak: React.FC<CinematicBreakProps> = ({ onOpenEnquiry })
         {/* Full-Bleed Panoramic Background Image */}
         <img
           src="./images/hero-sunset-panoramic.jpg"
-          alt="Panoramic sunset horizon and misty ridges at Max Crest Vagamon"
+          alt="Panoramic sunset horizon and misty ridges at Mistora Stays Vagamon"
           className="absolute inset-0 w-full h-full object-cover object-center scale-105 transition-transform duration-1000"
           loading="lazy"
         />
@@ -36,7 +36,7 @@ export const CinematicBreak: React.FC<CinematicBreakProps> = ({ onOpenEnquiry })
             type="button"
             onClick={() =>
               onOpenEnquiry &&
-              onOpenEnquiry('Enquiring about reserving the entire Max Crest estate in Vagamon')
+              onOpenEnquiry('Enquiring about reserving the entire Mistora Stays estate in Vagamon')
             }
             className="group inline-flex items-center gap-3 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-6 pr-3 py-3 rounded-full transition-all shadow-lg cursor-pointer active:scale-[0.98]"
           >

@@ -15,7 +15,7 @@ export const FAQ: React.FC<FAQProps> = () => {
   };
 
   const whatsappUrl = `https://wa.me/${resort.contact.whatsappNumber}?text=${encodeURIComponent(
-    'Hello Max Crest, I have a quick question about reserving the resort.'
+    'Hello Mistora Stays, I have a quick question about reserving the resort.'
   )}`;
 
   return (

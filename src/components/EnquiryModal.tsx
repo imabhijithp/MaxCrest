@@ -50,7 +50,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
 
     if (channel === 'whatsapp') {
       const text = [
-        `*Stay Enquiry — Max Crest Resort*`,
+        `*Stay Enquiry — Mistora Stays Resort*`,
         `Name: ${name || 'Guest'}`,
         phone ? `Phone: ${phone}` : '',
         email ? `Email: ${email}` : '',
@@ -65,7 +65,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
     } else {
       const subject = encodeURIComponent(`Stay Enquiry — ${name || 'Guest'}`);
       const body = encodeURIComponent(
-        `Dear Max Crest Team,\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nNotes / Enquiries:\n${message}\n\nWarm regards,\n${name}`
+        `Dear Mistora Stays Team,\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nNotes / Enquiries:\n${message}\n\nWarm regards,\n${name}`
       );
       window.location.href = `mailto:${resort.contact.email}?subject=${subject}&body=${body}`;
       onClose();
@@ -103,7 +103,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
             Reserve the Entire Estate
           </h3>
           <p className="text-xs text-[#415446] mt-1.5 leading-relaxed">
-            Max Crest is reserved exclusively for one group at a time. Share your dates and group size below, and our team will get in touch directly.
+            Mistora Stays is reserved exclusively for one group at a time. Share your dates and group size below, and our team will get in touch directly.
           </p>
         </div>
 

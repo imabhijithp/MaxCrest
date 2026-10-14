@@ -68,9 +68,9 @@ export interface FaqItem {
 }
 
 export const resort = {
-  name: "Max Crest Premium Resort Vagamon",
-  shortName: "Max Crest",
-  tagline: "A Quiet Mountain Retreat",
+  name: "Mistora Stays",
+  shortName: "Mistora Stays",
+  tagline: "Exclusive Private Mountain Estate",
   location: "Vagamon, Kerala",
   subLocation: "Western Ghats, Kerala, India",
   coordinates: "9.6885° N, 76.9056° E",
@@ -81,9 +81,11 @@ export const resort = {
     phone: "+91 94000 00000",
     phoneDisplay: "+91 94000 00000",
     whatsappNumber: "919400000000", // International format without +
-    whatsappDefaultMessage: "Hello Max Crest, I would like to enquire about reserving the whole estate in Vagamon for our group.",
-    email: "reservations@maxcrestvagamon.com",
-    mapsUrl: "https://maps.google.com/?q=Max+Crest+Premium+Resort+Vagamon+Kerala",
+    whatsappDefaultMessage: "Hello Mistora Stays, I would like to enquire about reserving the whole estate in Vagamon for our group.",
+    email: "stay@mistorastays.in",
+    website: "https://mistorastays.in",
+    domain: "mistorastays.in",
+    mapsUrl: "https://maps.google.com/?q=Mistora+Stays+Vagamon+Kerala",
     instagramUrl: "https://instagram.com",
   },
 
@@ -112,7 +114,7 @@ export const resort = {
     number: "01",
     eyebrow: "ABOUT THE RESORT",
     title: "A place shaped by stillness.",
-    description: "Max Crest is an exclusive private villa retreat reserved entirely for one family or private group at a time. Enjoy complete hill-top privacy with no other guests — featuring panoramic glass bedrooms, a private hillside plunge pool, double-height living lounge, and uninterrupted Western Ghats horizons.",
+    description: "Mistora Stays is an exclusive private villa retreat reserved entirely for one family or private group at a time. Enjoy complete hill-top privacy with no other guests — featuring panoramic glass bedrooms, a private hillside plunge pool, double-height living lounge, and uninterrupted Western Ghats horizons.",
     quote: "“The entire mountain villa exclusively for your family — pure privacy, cool mist, and untouched nature.”",
     featureImage: "./images/hero-sunset-panoramic.jpg",
     featureImageAlt: "Panoramic sunset horizon over tea slopes and misty mountain ridges in Vagamon",
@@ -260,7 +262,7 @@ export const resort = {
     {
       id: "g1",
       src: "./images/hero-estate-overview.jpg",
-      alt: "Panoramic landscape view of Max Crest Resort perched on the Vagamon hillside",
+      alt: "Panoramic landscape view of Mistora Stays perched on the Vagamon hillside",
       title: "The Estate & Hillside",
       category: "landscape",
       aspect: "landscape",
@@ -368,11 +370,11 @@ export const resort = {
     {
       id: "g13",
       src: "./images/resort-signage.jpg",
-      alt: "Max Crest stone entrance signage",
+      alt: "Mistora Stays stone entrance signage",
       title: "The Arrival",
       category: "architecture",
       aspect: "portrait",
-      caption: "Natural stone gateway welcoming guests to Max Crest Premium Resort.",
+      caption: "Natural stone gateway welcoming guests to Mistora Stays.",
     },
     {
       id: "g14",
@@ -400,14 +402,14 @@ export const resort = {
   enquiry: {
     eyebrow: "BOOK YOUR STAY",
     title: "Plan your mountain getaway.",
-    subtitle: "To ensure personal care, prompt support, and the best rates, all bookings at Max Crest are handled directly by our on-site team.",
+    subtitle: "To ensure personal care, prompt support, and the best rates, all bookings at Mistora Stays are handled directly by our on-site team.",
     note: "Reach out via WhatsApp, phone call, or the quick form below. We are here to help you plan your visit.",
   },
 
   estateBuyout: {
     badge: "100% PRIVATE & EXCLUSIVE",
     tagline: "The Entire Estate Is Exclusively Yours",
-    description: "Max Crest does not rent individual rooms to separate travelers. Every booking reserves the complete resort property exclusively for your family or private group, ensuring absolute privacy, personalized on-site service, and undivided access to all amenities.",
+    description: "Mistora Stays does not rent individual rooms to separate travelers. Every booking reserves the complete resort property exclusively for your family or private group, ensuring absolute privacy, personalized on-site service, and undivided access to all amenities.",
     capacity: "Accommodates up to 10–12 guests comfortably",
     spacesIncluded: [
       {
@@ -455,7 +457,7 @@ export const resort = {
       tripType: "Friends Getaway (8 Guests)",
       rating: 5,
       date: "Stayed January 2026",
-      comment: "Unlike crowded resorts where you share pools and dining spaces, Max Crest was 100% our private haven. The glass living room is stunning at night, and the evening bonfire was magical with cold mountain wind. The caretakers were super friendly and helpful.",
+      comment: "Unlike crowded resorts where you share pools and dining spaces, Mistora Stays was 100% our private haven. The glass living room is stunning at night, and the evening bonfire was magical with cold mountain wind. The caretakers were super friendly and helpful.",
       highlight: "Zero crowds, magical campfire deck"
     },
     {
@@ -474,8 +476,8 @@ export const resort = {
     {
       id: "faq-1",
       category: "Booking & Privacy",
-      question: "Can we book only a single room at Max Crest?",
-      answer: "No, Max Crest is rented exclusively as a full-estate private buyout. When you make a reservation, the entire property—including all suites, the living pavilion, private infinity pool, and firepit deck—is reserved solely for you and your group. There will never be any outside guests during your stay."
+      question: "Can we book only a single room at Mistora Stays?",
+      answer: "No, Mistora Stays is rented exclusively as a full-estate private buyout. When you make a reservation, the entire property—including all suites, the living pavilion, private infinity pool, and firepit deck—is reserved solely for you and your group. There will never be any outside guests during your stay."
     },
     {
       id: "faq-2",

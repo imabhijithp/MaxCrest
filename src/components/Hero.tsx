@@ -15,7 +15,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           <source media="(max-width: 640px)" srcSet={resort.hero.mobileImage} />
           <img
             src={resort.hero.image}
-            alt="Max Crest Premium Resort Vagamon overlooking mountain mist and tea slopes"
+            alt="Mistora Stays Premium Resort Vagamon overlooking mountain mist and tea slopes"
             className="w-full h-full object-cover object-center scale-[1.01] transition-transform duration-1000"
             loading="eager"
             fetchPriority="high"
@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
             {/* Left 7 Cols: Classic Editorial Headline */}
             <div className="lg:col-span-7">
               <p className="text-[#B8C9B2] text-xs uppercase tracking-[0.22em] font-medium mb-3">
-                Max Crest Boutique Resort · Vagamon
+                Mistora Stays Boutique Resort · Vagamon
               </p>
               <h1 className="font-serif text-[36px] sm:text-[48px] md:text-[58px] lg:text-[66px] font-normal tracking-tight leading-[1.08] text-white">
                 A quiet hillside retreat above the clouds.

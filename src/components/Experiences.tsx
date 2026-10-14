@@ -21,7 +21,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
         </div>
 
         <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed max-w-sm lg:pb-1">
-          Surrounded by tea gardens and cool mountain mist, every moment at Max Crest is designed for relaxation, quiet views, and fresh mountain air.
+          Surrounded by tea gardens and cool mountain mist, every moment at Mistora Stays is designed for relaxation, quiet views, and fresh mountain air.
         </p>
       </div>
 
@@ -30,7 +30,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
         {/* Left 5 Cols: Tall Feature Card — Hillside Plunge Pool */}
         <div
           onClick={() =>
-            onOpenEnquiry && onOpenEnquiry('Enquiring about the Hillside Plunge Pool experience at Max Crest')
+            onOpenEnquiry && onOpenEnquiry('Enquiring about the Hillside Plunge Pool experience at Mistora Stays')
           }
           className="lg:col-span-5 relative rounded-[28px] overflow-hidden h-[380px] sm:h-[420px] lg:h-[480px] bg-white group cursor-pointer shadow-sm flex flex-col justify-end p-4 sm:p-5"
         >
@@ -68,7 +68,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
           {/* Top Card: Outdoor Firepit Terrace */}
           <div
             onClick={() =>
-              onOpenEnquiry && onOpenEnquiry('Enquiring about the Outdoor Firepit Terrace at Max Crest')
+              onOpenEnquiry && onOpenEnquiry('Enquiring about the Outdoor Firepit Terrace at Mistora Stays')
             }
             className="bg-white rounded-[28px] p-3.5 sm:p-4 lg:p-4.5 grid grid-cols-1 sm:grid-cols-12 gap-4 lg:gap-5 items-stretch cursor-pointer group shadow-[0_4px_24px_rgba(41,78,53,0.04)] overflow-hidden flex-1"
           >
@@ -107,7 +107,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
           {/* Bottom Card: Highland Tea & Pine Ridges */}
           <div
             onClick={() =>
-              onOpenEnquiry && onOpenEnquiry('Enquiring about Tea Garden walks at Max Crest')
+              onOpenEnquiry && onOpenEnquiry('Enquiring about Tea Garden walks at Mistora Stays')
             }
             className="bg-white rounded-[28px] p-3.5 sm:p-4 lg:p-4.5 grid grid-cols-1 sm:grid-cols-12 gap-4 lg:gap-5 items-stretch cursor-pointer group shadow-[0_4px_24px_rgba(41,78,53,0.04)] overflow-hidden flex-1"
           >

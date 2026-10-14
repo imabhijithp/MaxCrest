@@ -35,7 +35,7 @@ export const FloatingCTA: React.FC = () => {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with Max Crest on WhatsApp"
+        aria-label="Chat with Mistora Stays on WhatsApp"
         className="group flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-[0_8px_24px_rgba(37,211,102,0.35)] hover:shadow-[0_12px_28px_rgba(37,211,102,0.45)] transition-all duration-300 hover:scale-105 active:scale-95"
       >
         {/* Authentic WhatsApp Icon */}

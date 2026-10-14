@@ -75,7 +75,7 @@ export function App() {
         <Sanctuaries
           onOpenEnquiry={(note) =>
             handleOpenEnquiry(
-              note || 'Enquiring about reserving the entire Max Crest estate in Vagamon'
+              note || 'Enquiring about reserving the entire Mistora Stays estate in Vagamon'
             )
           }
         />

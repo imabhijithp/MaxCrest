@@ -28,10 +28,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           <a
             href="#"
             className="flex items-center focus:outline-none group shrink-0"
-            aria-label="Max Crest Premium Resort"
+            aria-label="Mistora Stays"
           >
-            <span className="font-serif text-lg sm:text-xl lg:text-2xl tracking-[0.12em] sm:tracking-[0.14em] font-medium text-[#294E35] leading-none whitespace-nowrap">
-              MAX CREST
+            <span className="font-serif text-lg sm:text-xl lg:text-2xl tracking-[0.06em] font-bold text-[#294E35] leading-none whitespace-nowrap">
+              Mistora Stays
             </span>
           </a>
 
@@ -131,8 +131,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
         aria-hidden={!mobileMenuOpen}
       >
         <div className="flex items-center justify-between pb-6 border-b border-black/[0.06]">
-          <span className="font-serif text-2xl tracking-[0.14em] font-medium text-[#294E35]">
-            MAX CREST
+          <span className="font-serif text-2xl tracking-[0.06em] font-bold text-[#294E35]">
+            Mistora Stays
           </span>
           <button
             onClick={() => setMobileMenuOpen(false)}
