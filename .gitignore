@@ -24,3 +24,6 @@ dist-ssr
 
 # Scratch directory
 scratch/
+
+# Cloudflare Wrangler
+.wrangler/
