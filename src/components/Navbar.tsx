@@ -48,7 +48,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               href="#sanctuary"
               className="px-4 py-1.5 rounded-full text-xs font-medium text-[#415446] hover:text-[#294E35] hover:bg-white transition-all"
             >
-              Sanctuary
+              About
             </a>
             <a
               href="#architecture"
@@ -82,14 +82,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             </a>
           </nav>
 
-          {/* Right: Direct Concierge Actions */}
+          {/* Right: Direct Actions */}
           <div className="flex items-center space-x-2">
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-[#294E35]/15 text-[#294E35] hover:bg-[#EAF1E6]/70 text-xs font-medium transition-colors"
-              title="WhatsApp Concierge"
+              title="WhatsApp Resort Support"
             >
               <MessageSquare className="w-3.5 h-3.5 text-[#294E35]" />
               <span className="hidden md:inline">WhatsApp</span>
@@ -98,7 +98,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             <a
               href={`tel:${resort.contact.phone.replace(/\s+/g, '')}`}
               className="w-9 h-9 rounded-full border border-[#294E35]/15 flex items-center justify-center text-[#294E35] hover:bg-[#EAF1E6]/70 transition-colors"
-              aria-label="Call Resort Concierge"
+              aria-label="Call Resort Team"
               title={`Call ${resort.contact.phoneDisplay}`}
             >
               <Phone className="w-3.5 h-3.5" />
@@ -108,7 +108,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               onClick={onOpenEnquiry}
               className="group inline-flex items-center gap-2 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-4 pr-2.5 py-2 rounded-full transition-all shadow-xs active:scale-[0.98]"
             >
-              <span>Enquire</span>
+              <span>Book Now</span>
               <span className="w-5 h-5 rounded-full bg-white/20 text-white flex items-center justify-center transition-transform group-hover:rotate-45">
                 <ArrowUpRight className="w-3 h-3" />
               </span>
@@ -168,7 +168,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             }}
             className="w-full py-3.5 rounded-full bg-[#294E35] text-white text-xs font-semibold uppercase tracking-wider"
           >
-            Enquire with Concierge
+            Book Your Stay
           </button>
           <div className="flex items-center justify-between text-xs text-[#617364] pt-1">
             <a href={`tel:${resort.contact.phone.replace(/\s+/g, '')}`} className="hover:text-[#294E35]">

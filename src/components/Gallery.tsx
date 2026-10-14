@@ -36,12 +36,12 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectImage }) => {
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>05 — Visual Archive</span>
+              <span>05 — Photo Gallery</span>
             </div>
             <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-              Frames of Max Crest{' '}
+              Moments &amp; Views{' '}
               <span className="font-serif italic font-normal text-[#294E35]">
-                in Vagamon
+                at Max Crest
               </span>
             </h2>
           </div>

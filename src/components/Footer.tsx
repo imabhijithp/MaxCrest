@@ -31,16 +31,16 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-8 pb-12 sm:pb-14 border-b border-white/10">
           <div className="max-w-xl">
             <span className="text-[10px] uppercase tracking-[0.24em] text-[#BB8C52] font-semibold block mb-2">
-              Private Mountain Sanctuary
+              Your Mountain Getaway
             </span>
             <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-semibold tracking-tight text-white leading-[1.12] mb-3">
-              Plan Your Retreat to <br />
+              Plan Your Stay at <br />
               <span className="font-serif italic font-normal text-[#EAF1E6]">
                 Max Crest Vagamon
               </span>
             </h2>
             <p className="text-[#EAF1E6]/80 text-xs sm:text-[13px] leading-relaxed">
-              All stays are arranged directly with our dedicated concierge desk in Vagamon, Kerala to ensure unhurried personal attention and complete mountain privacy.
+              Book directly with our on-site team in Vagamon for the best rates, fast answers, and personal assistance for your stay.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               onClick={() => onOpenEnquiry && onOpenEnquiry()}
               className="group inline-flex items-center gap-2.5 bg-white hover:bg-[#EAF1E6] text-[#294E35] text-xs font-semibold pl-5 pr-2.5 py-3 rounded-full transition-all shadow-xs"
             >
-              <span>Enquire with Concierge</span>
+              <span>Book Your Stay</span>
               <span className="w-6 h-6 rounded-full bg-[#294E35] text-white flex items-center justify-center transition-transform group-hover:rotate-45">
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </span>
@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full border border-white/20 hover:bg-white/10 text-white text-xs font-medium transition-colors"
             >
               <MessageSquare className="w-3.5 h-3.5 text-[#B8C9B2]" />
-              <span>WhatsApp Desk</span>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
         </div>
@@ -126,41 +126,41 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
             <ul className="space-y-2.5 text-xs text-[#EAF1E6]/75">
               <li>
                 <a href="#sanctuary" className="hover:text-white transition-colors">
-                  The Sanctuary
+                  About the Resort
                 </a>
               </li>
               <li>
                 <a href="#architecture" className="hover:text-white transition-colors">
-                  Architecture &amp; Design
+                  Resort Architecture
                 </a>
               </li>
               <li>
                 <a href="#suites" className="hover:text-white transition-colors">
-                  Suites &amp; Verandas
+                  Rooms &amp; Suites
                 </a>
               </li>
               <li>
                 <a href="#experiences" className="hover:text-white transition-colors">
-                  Highland Experiences
+                  Experiences &amp; Activities
                 </a>
               </li>
               <li>
                 <a href="#gallery" className="hover:text-white transition-colors">
-                  Visual Archive
+                  Photo Gallery
                 </a>
               </li>
               <li>
                 <a href="#destination" className="hover:text-white transition-colors">
-                  Location &amp; Weather
+                  Location &amp; Directions
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Col 3 (4 cols): Dedicated Concierge Quick Input */}
+          {/* Col 3 (4 cols): Direct Quick Enquiry Form */}
           <div className="lg:col-span-4">
             <h3 className="text-[10px] uppercase tracking-[0.2em] text-[#B8C9B2] font-semibold mb-4">
-              DIRECT CONCIERGE ENQUIRY
+              QUICK STAY ENQUIRY
             </h3>
             <form
               onSubmit={handleQuickSubmit}
@@ -170,8 +170,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
                 type="text"
                 value={quickNote}
                 onChange={(e) => setQuickNote(e.target.value)}
-                placeholder="Ask about dates or suite..."
-                aria-label="Quick concierge note"
+                placeholder="Ask about dates, rooms, or rates..."
+                aria-label="Quick stay enquiry"
                 className="bg-transparent text-xs text-white placeholder:text-white/40 focus:outline-none w-full pr-3"
               />
               <button
@@ -182,7 +182,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               </button>
             </form>
             <p className="text-[11px] text-[#EAF1E6]/60 mt-3 leading-relaxed">
-              Personal reply by our on-site team via WhatsApp or phone. No bots, no third-party booking fees.
+              Direct reply from our on-site team via WhatsApp or phone. No bots, no extra booking fees.
             </p>
           </div>
         </div>

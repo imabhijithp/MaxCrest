@@ -13,34 +13,34 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
         <div>
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-[#294E35]/15 text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3 shadow-2xs">
             <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-            <span>03 — Highland Moments</span>
+            <span>03 — Resort Experiences</span>
           </div>
 
           <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
-            Unhurried Days in the{' '}
+            Relax &amp; Unwind in the{' '}
             <span className="font-serif italic font-normal text-[#294E35]">
-              Vagamon Mist
+              Vagamon Hills
             </span>
           </h2>
         </div>
 
         <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed max-w-sm lg:pb-1">
-          Surrounded by tea-covered crests and shifting mountain fog, every experience at Max Crest is shaped by natural elements and quiet contemplation.
+          Surrounded by tea gardens and cool mountain mist, every moment at Max Crest is designed for relaxation, quiet views, and fresh mountain air.
         </p>
       </div>
 
       {/* Original Asymmetric Bento Composition (Left 5-Col Feature + Right 7-Col Alternating Stack) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-        {/* Left 5 Cols: Tall Feature Card — Sky Mirror Plunge Pool */}
+        {/* Left 5 Cols: Tall Feature Card — Hillside Plunge Pool */}
         <div
           onClick={() =>
-            onOpenEnquiry && onOpenEnquiry('Enquiring about the Sky Mirror Plunge Pool experience at Max Crest')
+            onOpenEnquiry && onOpenEnquiry('Enquiring about the Hillside Plunge Pool experience at Max Crest')
           }
           className="lg:col-span-5 relative rounded-[28px] overflow-hidden h-[380px] sm:h-[420px] lg:h-[480px] bg-white group cursor-pointer shadow-sm flex flex-col justify-end p-4 sm:p-5"
         >
           <img
             src="./images/infinity-plunge-pool.jpg"
-            alt="Infinity plunge pool cantilevered above the slopes of Vagamon"
+            alt="Infinity plunge pool overlooking the slopes of Vagamon"
             className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
           />
@@ -51,10 +51,10 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
             <div className="flex items-start justify-between gap-3 mb-2">
               <div>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold block mb-0.5">
-                  Water &amp; Horizon
+                  Infinity Pool
                 </span>
                 <h3 className="text-lg font-semibold text-[#16241A]">
-                  Sky Mirror Plunge Pool
+                  Hillside Plunge Pool
                 </h3>
               </div>
               <span className="w-8 h-8 rounded-full bg-[#294E35] text-white flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:rotate-45">
@@ -62,17 +62,17 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
               </span>
             </div>
             <p className="text-[#415446] text-xs leading-relaxed">
-              Still waters cantilevered above the misty valleys of Vagamon, reflecting the changing mountain sky from morning dew to twilight.
+              A refreshing infinity pool perched high above the tea slopes of Vagamon, perfect for unwinding as mist rolls across the hills.
             </p>
           </div>
         </div>
 
         {/* Right 7 Cols: Two Alternating Horizontal Bento Cards */}
         <div className="lg:col-span-7 flex flex-col justify-between gap-5 h-auto lg:h-[480px]">
-          {/* Top Card: Outdoor Hearth Terrace */}
+          {/* Top Card: Outdoor Firepit Terrace */}
           <div
             onClick={() =>
-              onOpenEnquiry && onOpenEnquiry('Enquiring about the Outdoor Hearth Terrace at Max Crest')
+              onOpenEnquiry && onOpenEnquiry('Enquiring about the Outdoor Firepit Terrace at Max Crest')
             }
             className="bg-white rounded-[28px] p-3.5 sm:p-4 lg:p-4.5 grid grid-cols-1 sm:grid-cols-12 gap-4 lg:gap-5 items-stretch cursor-pointer group shadow-[0_4px_24px_rgba(41,78,53,0.04)] overflow-hidden flex-1"
           >
@@ -88,7 +88,7 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
             <div className="sm:col-span-7 flex flex-col justify-between py-1 px-1 sm:px-2">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold">
-                  Dusk Gatherings
+                  Cosy Evenings
                 </span>
                 <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:rotate-45 shrink-0">
                   <ArrowUpRight className="w-3.5 h-3.5" />
@@ -96,14 +96,14 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
               </div>
 
               <h3 className="text-base sm:text-lg font-semibold text-[#16241A] mb-1.5 leading-snug">
-                Outdoor Hearth Terrace
+                Outdoor Firepit Terrace
               </h3>
               <p className="text-[#415446] text-xs leading-relaxed mb-3">
-                Gather beside our open stone hearth as cool highland breezes roll across the timber deck under starlit Western Ghats skies.
+                Gather around our open stone firepit with warm tea as cool mountain breezes roll across the deck under starry skies.
               </p>
 
               <span className="text-[11px] font-semibold text-[#294E35] underline underline-offset-4">
-                Enquire with Concierge
+                Book / Enquire Now
               </span>
             </div>
           </div>
@@ -111,14 +111,14 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
           {/* Bottom Card: Highland Tea & Pine Ridges */}
           <div
             onClick={() =>
-              onOpenEnquiry && onOpenEnquiry('Enquiring about Highland Tea Ridge walks at Max Crest')
+              onOpenEnquiry && onOpenEnquiry('Enquiring about Tea Garden walks at Max Crest')
             }
             className="bg-white rounded-[28px] p-3.5 sm:p-4 lg:p-4.5 grid grid-cols-1 sm:grid-cols-12 gap-4 lg:gap-5 items-stretch cursor-pointer group shadow-[0_4px_24px_rgba(41,78,53,0.04)] overflow-hidden flex-1"
           >
             <div className="sm:col-span-7 order-2 sm:order-1 flex flex-col justify-between py-1 px-1 sm:px-2">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#294E35] font-semibold">
-                  Surrounding Landscape
+                  Nature Trails
                 </span>
                 <span className="w-8 h-8 rounded-full bg-[#EAF1E6] group-hover:bg-[#294E35] text-[#294E35] group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:rotate-45 shrink-0">
                   <ArrowUpRight className="w-3.5 h-3.5" />
@@ -126,14 +126,14 @@ export const Experiences: React.FC<ExperiencesProps> = ({ onOpenEnquiry }) => {
               </div>
 
               <h3 className="text-base sm:text-lg font-semibold text-[#16241A] mb-1.5 leading-snug">
-                Emerald Tea &amp; Pine Ridges
+                Tea Garden &amp; Pine Walk
               </h3>
               <p className="text-[#415446] text-xs leading-relaxed mb-3">
-                Step directly onto quiet hillside paths winding through manicured tea slopes, solitary pines, and panoramic valley lookouts.
+                Take peaceful walks directly from the resort along tea garden trails and pine forests with 360-degree mountain views.
               </p>
 
               <span className="text-[11px] font-semibold text-[#294E35] underline underline-offset-4">
-                Explore Surroundings
+                Plan Your Walk
               </span>
             </div>
 

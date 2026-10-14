@@ -47,7 +47,7 @@ export const EnquirySection: React.FC<EnquirySectionProps> = ({ onOpenModal }) =
             className="group inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-charcoal text-ivory text-xs uppercase tracking-[0.22em] font-medium transition-all duration-300 hover:bg-charcoal-deep shadow-md hover:scale-[1.02] active:scale-[0.98]"
           >
             <MessageSquare className="w-4 h-4 text-stone-300" />
-            <span>WhatsApp Concierge</span>
+            <span>Chat on WhatsApp</span>
             <span className="text-xs transition-transform duration-300 group-hover:translate-x-1">→</span>
           </a>
 

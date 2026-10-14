@@ -8,28 +8,28 @@ interface ArchitectureProps {
 const architecturalHighlights = [
   {
     num: '01',
-    tag: 'Site & Topography',
-    title: 'Elevated Western Ghats Ridge',
+    tag: 'Location & View',
+    title: 'Scenic Hilltop Setting',
     description:
-      'Positioned along a quiet emerald crest in Vagamon, the resort follows the natural contours of the hillside to preserve uninterrupted views of tea valleys and drifting mountain mist.',
+      'Positioned along a peaceful green crest in Vagamon, the resort is designed to give you panoramic, uninterrupted views of tea gardens and misty mountain valleys.',
     image: './images/architecture-landscape.jpg',
     alt: 'Max Crest Resort nestled along the green tea slopes of Vagamon',
   },
   {
     num: '02',
-    tag: 'Materiality & Light',
-    title: 'The Glass & Timber Pavilion',
+    tag: 'Glass & Timber Design',
+    title: 'Glass Pavilions & Wood Decks',
     description:
-      'Floor-to-ceiling glass elevations, vertical timber louvers, and private cantilevered balconies invite shifting highland light and cool pine breezes indoors.',
+      'Floor-to-ceiling glass walls, elegant wooden accents, and private balconies let you enjoy natural daylight and refreshing mountain breezes.',
     image: './images/architecture-facade.jpg',
     alt: 'Modern architectural facade with vertical timber louvers and glass balconies',
   },
   {
     num: '03',
-    tag: 'Spatial Flow',
-    title: 'Teak Promenade & Water Edge',
+    tag: 'Outdoor Terraces',
+    title: 'Wooden Walkways & Pool Terrace',
     description:
-      'Hand-finished timber walkways and natural stone courtyards link the living spaces to our cantilevered plunge pool overlooking the valley horizon.',
+      'Handcrafted wooden boardwalks and stone courtyards connect your villa to the scenic infinity pool overlooking the valley.',
     image: './images/boardwalk-walkway.jpg',
     alt: 'Timber boardwalk walkway beside the glass facade and pool edge',
   },
@@ -46,18 +46,18 @@ export const Architecture: React.FC<ArchitectureProps> = ({ onOpenEnquiry }) => 
         <div>
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3 shadow-2xs">
             <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-            <span>02 — Architecture &amp; Form</span>
+            <span>02 — Design &amp; Views</span>
           </div>
           <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
             Crafted to Frame{' '}
             <span className="font-serif italic font-normal text-[#294E35]">
-              the Highland Horizon
+              the Mountain Horizon
             </span>
           </h2>
         </div>
 
         <p className="text-[#415446] text-xs sm:text-[13px] leading-relaxed max-w-sm">
-          Warm timber, expansive glass, and local stone work in quiet harmony with Vagamon’s shifting mountain climate.
+          Warm timber, expansive glass walls, and natural stone combine to let you experience Vagamon’s cool breezes and misty hills in luxury.
         </p>
       </div>
 

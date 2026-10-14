@@ -8,28 +8,28 @@ interface CinematicBreakProps {
 const stayHighlights = [
   {
     step: '01 / 03',
-    badge: 'Golden Hour Horizon',
-    title: 'Unhurried Highland Evenings',
+    badge: 'Golden Hour Sunset',
+    title: 'Peaceful Mountain Evenings',
     description:
-      'As dusk settles over the Western Ghats, warm amber light glows from the glass pavilions while cool mountain breezes sweep across the cantilevered verandas.',
+      'As dusk settles over the Western Ghats, warm golden light fills the glass villas while cool mountain breezes sweep across the balconies.',
     image: './images/hero-sunset-panoramic.jpg',
     alt: 'Panoramic sunset horizon at Max Crest Premium Resort Vagamon',
   },
   {
     step: '02 / 03',
-    badge: 'Mountain Microclimate',
-    title: 'Where Clouds Drift Across the Deck',
+    badge: 'Cool Mountain Mist',
+    title: 'Where Clouds Roll Across the Deck',
     description:
-      'High in the hills of Vagamon, shifting mist rolls directly across the timber pool terrace—creating a serene sanctuary far removed from urban heat and noise.',
+      'High in the hills of Vagamon, gentle mist drifts right across the pool deck, creating a quiet escape from city life.',
     image: './images/deck-monsoon-mist.jpg',
     alt: 'Teak pool deck shrouded in Vagamon mountain fog',
   },
   {
     step: '03 / 03',
-    badge: 'Morning Stillness',
-    title: 'Wake Above the Emerald Valley',
+    badge: 'Morning Views',
+    title: 'Wake Up Above the Green Valleys',
     description:
-      'Begin your morning with freshly brewed Kerala tea on the private balcony as sunlight filters through pine ridges and undulating tea estates.',
+      'Begin your morning with fresh Kerala tea on your private balcony as sunlight filters through pine trees and rolling tea estates.',
     image: './images/hero-estate-overview.jpg',
     alt: 'Morning tea slopes and pine ridges of Vagamon',
   },

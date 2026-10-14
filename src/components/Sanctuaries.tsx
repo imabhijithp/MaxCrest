@@ -40,13 +40,13 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>04 — Suites &amp; Living Spaces</span>
+              <span>04 — Rooms &amp; Suites</span>
             </div>
 
             <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
               Private Spaces for{' '}
               <span className="font-serif italic font-normal text-[#294E35]">
-                Quiet Mountain Living
+                Comfort &amp; Scenic Views
               </span>
             </h2>
           </div>
@@ -123,7 +123,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
           <div className="lg:col-span-5 bg-[#EAF1E6] rounded-[28px] p-6 sm:p-8 h-auto lg:h-[450px] flex flex-col justify-between shadow-xs">
             <div>
               <div className="flex items-center justify-between text-[11px] uppercase tracking-[0.2em] text-[#294E35] font-semibold mb-3">
-                <span>Interior Sanctuary</span>
+                <span>Room Highlights</span>
                 <span className="text-[#BB8C52] font-semibold">0{activeIndex + 1} / 0{suites.length}</span>
               </div>
 
@@ -138,7 +138,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
               {/* Spatial Highlights */}
               <div className="space-y-2.5 pt-5 border-t border-[#294E35]/10">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-[#617364] font-semibold block mb-2">
-                  Spatial Details
+                  Key Amenities &amp; Views
                 </span>
                 {highlights.map((detail) => (
                   <div key={detail} className="flex items-center gap-2.5 text-xs text-[#16241A]">
@@ -159,7 +159,7 @@ export const Sanctuaries: React.FC<SanctuariesProps> = ({ onOpenEnquiry }) => {
                 }
                 className="group inline-flex items-center gap-3 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
               >
-                <span>Enquire About This Space</span>
+                <span>Book This Suite</span>
                 <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </span>

@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         <div className="absolute inset-x-0 top-6 sm:top-8 px-6 sm:px-10 md:px-14 flex items-center justify-between z-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-[11px] font-medium tracking-wider uppercase">
             <span className="w-2 h-2 rounded-full bg-[#BB8C52] animate-pulse" />
-            <span>Private Highland Sanctuary · Vagamon</span>
+            <span>Luxury Hillside Resort · Vagamon</span>
           </div>
 
           <div className="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white/90 text-[11px] font-medium tracking-wider">
@@ -59,7 +59,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
             <div className="lg:col-span-5">
               <div className="bg-black/40 backdrop-blur-xl border border-white/15 rounded-[24px] p-5 sm:p-6 text-white shadow-xl">
                 <p className="text-white/85 text-xs sm:text-[13px] leading-relaxed mb-5">
-                  Set along the quiet emerald ridges of Vagamon, Kerala, our private estate frames sweeping tea valleys, cool pine winds, and shifting highland clouds.
+                  Set along the scenic green hills of Vagamon, Kerala, Max Crest offers panoramic valley views, fresh pine breezes, and modern luxury suites.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-3">
@@ -68,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
                     onClick={onOpenEnquiry}
                     className="group inline-flex items-center gap-2.5 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
                   >
-                    <span>Enquire with Concierge</span>
+                    <span>Book Your Stay</span>
                     <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
                       <ArrowUpRight className="w-3.5 h-3.5" />
                     </span>
@@ -78,7 +78,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
                     href="#sanctuary"
                     className="inline-flex items-center px-5 py-2.5 rounded-full border border-white/25 hover:bg-white/10 text-white text-xs font-medium transition-colors"
                   >
-                    Explore the Estate
+                    Explore the Resort
                   </a>
                 </div>
               </div>

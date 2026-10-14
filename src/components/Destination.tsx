@@ -16,12 +16,12 @@ export const Destination: React.FC = () => {
           <div className="lg:col-span-6 space-y-5">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white text-[#294E35] text-[11px] font-semibold tracking-wider uppercase shadow-2xs">
               <Compass className="w-3.5 h-3.5 text-[#BB8C52]" />
-              <span>06 — {resort.coordinates} · Vagamon</span>
+              <span>06 — Location &amp; Directions · Vagamon</span>
             </div>
 
             <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-semibold tracking-tight text-[#16241A] leading-[1.14]">
-              Where the Hills Disappear <br />
-              into{' '}
+              Where the Hills Meet <br />
+              the{' '}
               <span className="font-serif italic font-normal text-[#294E35]">
                 Mountain Mist
               </span>

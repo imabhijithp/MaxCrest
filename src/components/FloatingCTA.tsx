@@ -32,13 +32,13 @@ export const FloatingCTA: React.FC = () => {
           : 'opacity-0 translate-y-6 pointer-events-none'
       }`}
     >
-      {/* Floating Concierge Dock */}
+      {/* Floating Quick Action Dock */}
       <div className="flex items-center gap-2 bg-[#1E3A27]/95 backdrop-blur-2xl px-4 py-2 rounded-full shadow-2xl border border-white/20 text-white">
-        {/* Active Concierge Live Indicator */}
+        {/* Active Support Live Indicator */}
         <div className="flex items-center pl-1 pr-2 border-r border-white/20">
           <span className="w-2 h-2 rounded-full bg-[#BB8C52] animate-pulse mr-2" />
           <span className="font-mono text-[9px] uppercase tracking-wider text-[#B8C9B2] hidden sm:inline">
-            Concierge Active
+            Direct Support
           </span>
         </div>
 
@@ -48,7 +48,7 @@ export const FloatingCTA: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center px-3 py-1.5 text-white/90 hover:text-white transition-colors group"
-          aria-label="Chat with Concierge on WhatsApp"
+          aria-label="Chat with Resort Team on WhatsApp"
         >
           <MessageSquare className="w-3.5 h-3.5 text-[#B8C9B2] mr-2 group-hover:text-white transition-colors" />
           <span className="text-[11px] uppercase tracking-[0.2em] font-medium">WhatsApp</span>
@@ -60,7 +60,7 @@ export const FloatingCTA: React.FC = () => {
         <a
           href={`tel:${resort.contact.phone.replace(/\s+/g, '')}`}
           className="flex items-center px-3 py-1.5 text-white/90 hover:text-white transition-colors group"
-          aria-label="Direct Phone Call with Concierge"
+          aria-label="Direct Phone Call with Resort Team"
         >
           <Phone className="w-3.5 h-3.5 text-[#B8C9B2] mr-1.5 group-hover:text-white transition-colors" />
           <span className="text-[11px] uppercase tracking-[0.2em] font-medium hidden sm:inline">Call</span>

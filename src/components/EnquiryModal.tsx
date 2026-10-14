@@ -65,7 +65,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
     } else {
       const subject = encodeURIComponent(`Stay Enquiry — ${name || 'Guest'}`);
       const body = encodeURIComponent(
-        `Dear Max Crest Concierge,\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nNotes / Enquiries:\n${message}\n\nWarm regards,\n${name}`
+        `Dear Max Crest Team,\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nNotes / Enquiries:\n${message}\n\nWarm regards,\n${name}`
       );
       window.location.href = `mailto:${resort.contact.email}?subject=${subject}&body=${body}`;
       onClose();
@@ -97,13 +97,13 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
         <div className="mb-6">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold mb-3">
             <Sparkles className="w-3 h-3 text-[#BB8C52]" />
-            <span>Concierge Desk · Vagamon</span>
+            <span>Direct Booking · Vagamon</span>
           </div>
           <h3 id="enquiry-modal-title" className="text-2xl font-semibold tracking-tight text-[#16241A]">
-            Connect with Concierge
+            Plan Your Mountain Stay
           </h3>
           <p className="text-xs text-[#415446] mt-1.5 leading-relaxed">
-            Share your details below and our Vagamon concierge team will personally assist with your stay arrangements.
+            Share your details below and our Vagamon team will get in touch directly to help you book your stay.
           </p>
         </div>
 
@@ -204,7 +204,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
               className="w-full py-3.5 rounded-full bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-semibold transition-all flex items-center justify-center gap-2 shadow-sm"
             >
               <Send className="w-3.5 h-3.5" />
-              <span>{channel === 'whatsapp' ? 'Continue to WhatsApp Concierge' : 'Send via Email'}</span>
+              <span>{channel === 'whatsapp' ? 'Continue on WhatsApp' : 'Send via Email'}</span>
             </button>
           </div>
 

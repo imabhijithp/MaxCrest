@@ -17,7 +17,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
           <div className="lg:col-span-7">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#EAF1E6] text-[#294E35] text-[11px] font-semibold tracking-wider uppercase mb-4">
               <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span>01 — The Sanctuary</span>
+              <span>01 — About the Resort</span>
             </div>
 
             <h2 className="text-[30px] sm:text-[38px] lg:text-[44px] font-semibold tracking-tight text-[#16241A] leading-[1.12]">
@@ -77,17 +77,17 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
               </div>
             </div>
 
-            {/* Young Tea Architectural Summary Card */}
+            {/* Boutique Resort Summary Card */}
             <div className="bg-[#EAF1E6] rounded-[24px] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-5 h-auto lg:h-[155px] shadow-xs">
               <div className="space-y-1 max-w-md">
                 <span className="text-[10px] uppercase tracking-[0.22em] text-[#294E35] font-semibold block">
-                  Private Highland Estate
+                  Boutique Hillside Resort
                 </span>
                 <h3 className="text-base sm:text-lg font-semibold text-[#16241A]">
-                  Intimate scale, personal concierge hospitality
+                  Personal service and peaceful privacy
                 </h3>
                 <p className="text-xs text-[#415446] leading-relaxed">
-                  Every stay is arranged directly through our Vagamon team—ensuring quiet privacy across our terraces, pool deck, and suites.
+                  Every booking is handled directly by our on-site team in Vagamon—guaranteeing personal care, best rates, and a hassle-free stay.
                 </p>
               </div>
 
@@ -97,7 +97,7 @@ export const Introduction: React.FC<IntroductionProps> = ({ onOpenEnquiry }) => 
                   onClick={onOpenEnquiry}
                   className="group inline-flex items-center gap-3 bg-[#294E35] hover:bg-[#1E3A27] text-white text-xs font-medium pl-5 pr-2.5 py-2.5 rounded-full transition-all shadow-xs"
                 >
-                  <span>Enquire Now</span>
+                  <span>Book Your Stay</span>
                   <span className="w-6 h-6 rounded-full bg-white text-[#294E35] flex items-center justify-center transition-transform group-hover:rotate-45">
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </span>
