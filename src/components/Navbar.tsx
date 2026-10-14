@@ -31,20 +31,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           {/* Left: Distinct Editorial Brand Lockup */}
           <a
             href="#"
-            className="flex items-center gap-3.5 focus:outline-none group"
-            aria-label="Max Crest Premium Resort Vagamon"
+            className="flex items-center focus:outline-none group"
+            aria-label="Max Crest Premium Resort"
           >
-            <div className="flex flex-col">
-              <span className="font-serif text-xl sm:text-2xl tracking-[0.14em] font-medium text-[#294E35] leading-none">
-                MAX CREST
-              </span>
-              <div className="flex items-center gap-1.5 mt-1">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-                <span className="text-[8px] tracking-[0.28em] uppercase text-[#617364] font-medium">
-                  VAGAMON · HIGHLANDS
-                </span>
-              </div>
-            </div>
+            <span className="font-serif text-xl sm:text-2xl tracking-[0.14em] font-medium text-[#294E35] leading-none">
+              MAX CREST
+            </span>
           </a>
 
           {/* Center: Clean Architectural Pill Navigation */}
@@ -142,13 +134,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
         aria-hidden={!mobileMenuOpen}
       >
         <div className="flex items-center justify-between pb-6 border-b border-black/[0.06]">
-          <div>
-            <span className="font-serif text-2xl tracking-[0.14em] font-medium text-[#294E35] block">MAX CREST</span>
-            <div className="flex items-center gap-1.5 mt-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#BB8C52]" />
-              <span className="text-[9px] tracking-[0.28em] uppercase text-[#617364]">Vagamon · Kerala</span>
-            </div>
-          </div>
+          <span className="font-serif text-2xl tracking-[0.14em] font-medium text-[#294E35]">
+            MAX CREST
+          </span>
           <button
             onClick={() => setMobileMenuOpen(false)}
             className="w-10 h-10 rounded-full border border-black/[0.1] flex items-center justify-center text-[#294E35]"
